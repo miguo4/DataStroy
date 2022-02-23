@@ -1,0 +1,26 @@
+{
+    "type": "rank",
+    "measure": [
+        {
+            "field": "Sales",
+            "aggregate": "count"
+        }
+    ],
+    "subspace": [
+        {
+            "field": "Brand",
+            "value": "BMW"
+        },
+        {
+            "field": "Year",
+            "value": "2007/1/1"
+        }
+    ],
+    "groupby": ["Category"],
+    "focus": [
+        {
+            "field": "Category",
+            "value": "Compact"
+        }
+    ]
+}

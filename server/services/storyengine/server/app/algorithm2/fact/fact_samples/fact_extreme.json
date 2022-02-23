@@ -1,0 +1,22 @@
+{
+    "type": "extreme",
+    "measure": [
+        {
+            "field": "Sales",
+            "aggregate": "sum"
+        }
+    ],
+    "subspace": [
+        {
+            "field": "Year",
+            "value": "2007/1/1"
+        }
+    ],
+    "groupby": ["Category"],
+    "focus": [
+        {
+            "field": "Category",
+            "value": "Compact"
+        }
+    ]
+}

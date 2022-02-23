@@ -1,0 +1,17 @@
+{
+    "type": "distribution",
+    "measure": [
+        {
+            "field": "Sales",
+            "aggregate": "sum"
+        }
+    ],
+    "subspace": [
+        {
+            "field": "Brand",
+            "value": "BMW"
+        }
+    ],
+    "groupby": ["Model"],
+    "focus": []
+}

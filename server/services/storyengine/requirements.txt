@@ -1,0 +1,14 @@
+flask
+flask-restful
+flask_cors
+pandas
+scikit-learn
+numpy
+powerlaw
+gunicorn
+requests
+jsonpickle
+pycountry
+datetime
+mxnet
+langdetect

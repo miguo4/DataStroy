@@ -1,0 +1,20 @@
+{
+    "type": "association",
+    "measure": [
+        {
+            "field": "SO2 kt",
+            "aggregate": "avg"
+        },
+        {
+            "field": "NOx kt",
+            "aggregate": "avg"
+        }
+    ],
+    "subspace": [
+
+    ],
+    "groupby": ["Energy Source"],
+    "focus": [
+
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "trend",
+    "measure": [
+        {
+            "field": "NOx kt",
+            "aggregate": "avg"
+        }
+    ],
+    "subspace": [
+
+    ],
+    "groupby": ["Year"],
+    "focus": [
+
+    ]
+}
