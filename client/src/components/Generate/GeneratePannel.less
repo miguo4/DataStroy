@@ -1,0 +1,311 @@
+@import '../../common.less';
+
+.draggerPannelCommon {
+    height  : 245px;
+    position: relative;
+
+    .ant-upload.ant-upload-drag:hover {
+        border: 3px solid #E6E6E6 !important;
+    }
+}
+
+.VHCenter {
+    display       : flex;
+    flex-direction: row;
+}
+
+.pannel-box {
+    border         : 3px solid #E6E6E6;
+    height         : 245px;
+    position       : relative;
+    flex-direction : row;
+    align-items    : center;
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+}
+
+.convertingTypeImage {
+    width                : 180px;
+    // margin-left    : 20px;
+    display              : flex;
+    flex-direction       : column;
+    // justify-content   : center;
+    align-items          : center;
+
+    span {
+        font-family   : @NotoSansHans-Medium;
+        font-size     : 16px;
+        color         : #000000;
+        letter-spacing: 0;
+        text-align    : center;
+    }
+
+}
+
+.fileName {
+    //max-width         : 150px;
+    max-width         : 120px;
+    line-height       : 20px !important;
+    font-family       : @NotoSansHans-Medium;
+    font-size         : 16px;
+    color             : #000000;
+    letter-spacing    : 0;
+    text-align        : center;
+    height            : 40px;
+    max-height        : 40px;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow          : hidden;
+    word-break        : break-all;
+    // max-width     : 100%;
+}
+
+
+
+.hintText {
+    font-family   : @NotoSansHans-Medium;
+    font-size     : 16px;
+    color         : #000000;
+    letter-spacing: 0;
+    text-align    : center;
+    line-height   : 26px;
+}
+
+.ClickToUpload:hover {
+    border: #FCBE31 4px solid;
+}
+
+.ClickToUpload {
+    display         : flex;
+    flex-direction  : row;
+    align-items     : center;
+    justify-content : center;
+    width           : 188px;
+    height          : 45px;
+    background-color: #064969;
+    cursor          : pointer;
+
+    div {
+        width          : 21px;
+        height         : 21px;
+        margin-right   : 11px;
+        background     : url("@{myAliCould}/upload_white.png") no-repeat center;
+        background-size: contain;
+    }
+
+    p {
+        font-family   : @NotoSansHans-Medium;
+        font-size     : 16px;
+        color         : #FFFFFF;
+        letter-spacing: 0;
+        text-align    : center;
+        margin-bottom : 0px;
+    }
+}
+
+.bottomPannelView {
+    margin-top: 27px;
+
+    .DownloadView {
+        .ant-col:hover {
+            border: #FCBE31 4px solid;
+        }
+
+        .ant-col {
+            display         : flex;
+            flex-direction  : row;
+            align-items     : center;
+            justify-content : center;
+            width           : 140px;
+            height          : 45px;
+            background-color: #064969;
+            cursor          : pointer;
+
+            div {
+                width       : 21px;
+                height      : 21px;
+                margin-right: 11px;
+            }
+
+            p {
+                font-family   : @NotoSansHans-Medium;
+                font-size     : 16px;
+                color         : #FFFFFF;
+                letter-spacing: 0;
+                text-align    : center;
+                margin-bottom : 0px;
+            }
+        }
+    }
+}
+
+.VHCenter {
+    .GenerateIcon {
+        background-repeat  : no-repeat;
+        background-position: center;
+        width              : 53px;
+        height             : 63px;
+        background-size    : contain;
+        margin-bottom      : 20px;
+    }
+}
+
+.ConvertFormsDiv {
+    height                 : 245px;
+    // -moz-column-count   : 3;
+    // /* Firefox */
+    // -webkit-column-count: 3;
+    // /* Safari and Chrome */
+    // column-count        : 3;
+    -webkit-column-gap     : 2px;
+    /* Chrome, Safari, Opera */
+    -moz-column-gap        : 2px;
+    /* Firefox */
+    column-gap             : 2px;
+
+
+    .convert-box:hover {
+        border: #FCBE31 5px solid;
+    }
+
+
+    .convert-box {
+        display         : flex;
+        flex-direction  : column;
+        align-items     : center;
+        justify-content : center;
+        cursor          : pointer;
+        border          : 1px solid #FFFFFF;
+        padding         : 7px;
+    }
+
+
+    .icon {
+        background-repeat  : no-repeat;
+        background-position: center;
+        width              : 53px;
+        height             : 63px;
+        background-size    : contain;
+        margin-bottom      : 11px;
+    }
+
+    .icon+span {
+        font-family: @NotoSansHans-Medium;
+        font-size  : 18px;
+        color      : #FFFFFF;
+        text-align : center;
+    }
+}
+
+.ant-progress-inner,
+.ant-progress-bg {
+    border-radius: 0px !important;
+}
+
+
+@media screen and (min-width:1300px) {
+
+    .convert-box {
+        width: 170px;
+    }
+}
+
+@media screen and (min-width:1080px) and(max-width:1300px) {
+
+    .convert-box {
+        width: 150px;
+
+        .icon {
+            transform: scale(0.9);
+        }
+    }
+}
+
+@media screen and (min-width:880px)and (max-width:1080px) {
+    .convert-box {
+        width: 140px;
+
+        .icon {
+            transform: scale(0.8);
+        }
+
+        span {
+            font-size: 17px !important;
+        }
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:880px) {
+    .pannel-box .CSVFileImage .csvIconBlack {
+        transform: scale(0.9);
+    }
+    .convert-box {
+        width: 120px;
+
+        .icon {
+            transform: scale(0.7);
+        }
+
+        span {
+            font-size: 16px !important;
+        }
+    }
+}
+
+@media screen and (min-width:524px) and (max-width:575px) {
+    .pannel-box .CSVFileImage .csvIconBlack {
+        transform: scale(0.9);
+    }
+
+    .convert-box {
+        width: 120px;
+
+        .icon {
+            transform: scale(0.6);
+        }
+
+        span {
+            font-size: 15px !important;
+        }
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:524px) {
+    .pannel-box .CSVFileImage .csvIconBlack {
+        transform: scale(0.8);
+    }
+
+    .convert-box {
+        width: 100px;
+
+        .icon {
+            transform: scale(0.6);
+        }
+
+        span {
+            font-size: 14px !important;
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    .pannel-box .CSVFileImage .csvIconBlack {
+        transform: scale(0.8);
+    }
+
+    .convert-box {
+        width: 100px;
+
+        .icon {
+            transform: scale(0.6);
+        }
+
+        span {
+            font-size: 14px !important;
+        }
+    }
+}

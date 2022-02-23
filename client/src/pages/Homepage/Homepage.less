@@ -1,0 +1,276 @@
+@import '../../common.less';
+
+
+.customDivider {
+    background-color: #DEDEDE;
+    margin          : 0px !important;
+    height          : 2px;
+}
+
+.pageWrapper {
+    margin       : 0 auto;
+    border       : 5px solid #F9F9F9;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding      : 0px 150px;
+    margin-top   : 28px;
+    margin-bottom   : 28px;
+}
+
+@media screen and (min-width:1300px) {
+
+    .pageWrapper {
+        width: 1300px;
+    }
+
+    .belowPannel .cloumnDiv {
+        width : 30%;
+        height: 180px;
+    }
+}
+
+@media screen and (min-width:1080px) and(max-width:1300px) {
+
+    .pageWrapper {
+        width  : 1000px;
+        padding: 0px 100px;
+    }
+
+    .belowPannel .cloumnDiv {
+        width : 30%;
+        height: 180px;
+    }
+
+    .custom {
+        margin-left: 88px;
+    }
+}
+
+@media screen and (min-width:880px)and (max-width:1080px) {
+
+    .pageWrapper {
+        width  : 800px;
+        padding: 0px 50px;
+    }
+
+    .belowPannel .cloumnDiv {
+        width : 30%;
+        height: 220px;
+    }
+
+    .custom {
+        margin-left: 0px;
+        transform  : scale(0.6);
+    }
+
+
+}
+
+@media screen and (min-width:575px) and (max-width:880px) {
+
+    .pageWrapper {
+        width  : 524px;
+        padding: 0px 20px;
+    }
+
+    .belowPannel .cloumnDiv {
+        width : 45%;
+        height: 200px;
+    }
+
+    .custom {
+        display: none;
+    }
+}
+
+@media screen and (min-width:524px) and (max-width:575px) {
+
+    .pageWrapper {
+        width  : 524px;
+        padding: 0px 20px;
+    }
+
+    .belowPannel .cloumnDiv {
+        width: 90%;
+    }
+
+    .ContentView {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .custom {
+        display: none;
+    }
+
+    .decorationImage .steps .arrow {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:524px) {
+    .pageWrapper {
+        width  : 400px;
+        padding: 0px !important;
+    }
+
+    .ContentView {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .custom {
+        display: none;
+    }
+
+    .decorationImage .steps .arrow {
+        margin: 0 10px;
+    }
+
+    .headerBarLeft,
+    .UploadTxtDiv,
+    .howtoConvert {
+        div:nth-child(1) {
+            transform       : scale(0.8);
+            transform-origin: center;
+        }
+    }
+
+    .headerBarWrapper .headerBarLeft div {
+        margin-left: 0px;
+    }
+
+    .belowPannel .cloumnDiv {
+        width: 90%;
+    }
+
+    .generated-view-dox span {
+        font-size: 15px;
+    }
+
+    .fileTypeAndNameView {
+        transform       : scale(0.87);
+        transform-origin: top;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .pageWrapper {
+        width  : 400px;
+        padding: 0px !important;
+    }
+    .ContentView {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .decorationImage .steps .arrow {
+        margin: 0 10px;
+    }
+
+    .custom {
+        display: none;
+    }
+
+    .headerBarLeft,
+    .UploadTxtDiv,
+    .howtoConvert {
+        div:nth-child(1) {
+            transform       : scale(0.8);
+            transform-origin: center;
+        }
+    }
+
+
+    .headerBarWrapper .headerBarLeft div {
+        margin-left: 0px;
+    }
+
+    .belowPannel .cloumnDiv {
+        width: 90%;
+    }
+
+    .generated-view-dox span {
+        font-size: 15px;
+    }
+
+    .fileTypeAndNameView {
+        transform       : scale(0.87);
+        transform-origin: top;
+    }
+}
+
+/***FooterView***/
+.footerWrapper {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    height        : 60px;
+
+    div:nth-child(1) {
+        margin-left    : 30px;
+        margin-right   : 16px;
+        width          : 45px;
+        height         : 45px;
+        background     : url("@{myAliCould}/logo_black.png") no-repeat center;
+        background-size: contain;
+    }
+
+    div:nth-child(3) {
+        width           : 30px;
+        height          : 2px;
+        background-color: #1A1A1A;
+        margin          : 0px 5px;
+    }
+
+    span {
+        font-family   : @NotoSansHans-Regular;
+        font-size     : 16px;
+        color         : #1A1A1A;
+        letter-spacing: 0;
+        text-align    : justify;
+    }
+
+
+    a {
+        position      : absolute;
+        right         : 30px;
+        font-family   : @NotoSansHans-Regular;
+        font-size     : 16px;
+        color         : #080404;
+        letter-spacing: 0;
+        text-align    : justify;
+    }
+}
+
+.ant-layout-footer {
+    padding         : 0px !important;
+    height          : 60px;
+    background-color: rgb(245, 245, 245);
+}
+
+@media screen and (min-width:1080px) {
+    .AboutDiv {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .AboutDiv {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .AboutDiv {
+        width: 95%;
+    }
+
+    .footerWrapper span:nth-child(4) {
+        display: none;
+    }
+
+    .footerWrapper div:nth-child(3) {
+        display: none;
+    }
+}
+
+/***FooterView  the end***/

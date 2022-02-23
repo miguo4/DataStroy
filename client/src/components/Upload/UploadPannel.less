@@ -1,0 +1,347 @@
+@import "../../common.less";
+
+
+
+.ant-upload.ant-upload-drag .ant-upload {
+    padding: 23px 23px !important;
+}
+
+.pannelWithConvertType {
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+}
+
+.draggerPannelCommon {
+    height  : 245px;
+    position: relative;
+
+    .ant-upload.ant-upload-drag:hover {
+        // border    : 3px solid #E6E6E6 !important;
+        border    : none !important;
+        box-shadow: 0 8px 30px 0 #e8edf0;
+    }
+}
+
+.pannelWithoutUpload {
+    // border         : 3px solid #E6E6E6;
+    border         : none !important;
+    height         : 245px;
+    position       : relative;
+    flex-direction : row;
+    align-items    : center;
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+}
+
+.uploading {
+    .uploadImage {
+        width          : 103px;
+        height         : 76px;
+        background     : url("@{myAliCould}/uploading.png") no-repeat center;
+        background-size: contain;
+        margin         : 0 auto;
+        margin-bottom  : 30px;
+    }
+
+    span {
+        line-height   : 16px;
+        font-family   : @NotoSansHans-Medium;
+        font-size     : 16px;
+        color         : #EB6331;
+        letter-spacing: 0;
+        text-align    : center;
+    }
+
+    .dot {
+        display       : inline-block;
+        width         : 3ch;
+        text-indent   : -1ch;
+        vertical-align: bottom;
+        overflow      : hidden;
+        animation     : dot 3s infinite step-start both;
+        color         : #EB6331;
+        /* 等宽字体很重要 */
+        font-family   : monospace;
+    }
+
+    @keyframes dot {
+        33% {
+            text-indent: 0;
+        }
+
+        66% {
+            text-indent: -2ch;
+        }
+    }
+}
+
+.errorFailImage {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    width         : 80%;
+}
+
+.CSVFileImage {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    width         : 180px;
+    margin-bottom : 25px;
+
+    .fileName {
+        max-width: 140px;
+    }
+}
+
+.iconFailed {
+    width          : 79px;
+    height         : 79px;
+    background     : url("@{myAliCould}/failed.png") no-repeat center;
+    background-size: contain;
+    margin         : 10px auto;
+}
+
+.csvIconBlack {
+    width          : 74px;
+    height         : 88px;
+    background     : url("@{myAliCould}/csv_black.png") no-repeat top;
+    background-size: contain;
+}
+
+
+
+.csvIconWhite {
+    width          : 86px;
+    height         : 75px;
+    background     : url("@{myAliCould}/csv_white.png") no-repeat center;
+    background-size: contain;
+    margin         : 0 auto;
+}
+
+.uploadView {
+    .uploadBtn {
+        width             : 200px;
+        height            : 50px;
+        background        : #FDBE31;
+        // box-shadow     : 0 2px 3px 0 #D09613;
+        border-radius     : 5px;
+        display           : flex;
+        flex-direction    : row;
+        align-items       : center;
+        justify-content   : center;
+        margin            : 0 auto;
+        font-family       : @NotoSansHans-Medium;
+        font-size         : 16px;
+        color             : white;
+        letter-spacing    : 0;
+        text-align        : center;
+        margin-bottom     : 19px;
+
+        div:nth-child(1) {
+            width          : 20px;
+            height         : 23px;
+            background     : url("@{myAliCould}/upload_white.png") no-repeat center;
+            background-size: contain;
+            margin-right   : 10px;
+        }
+
+        span {
+            font-family   : @NotoSansHans-Medium;
+            font-size     : 14px;
+            color         : #FFFFFF;
+            letter-spacing: 0;
+            text-align    : center;
+        }
+    }
+
+    span:nth-child(2) {
+        font-family   : @NotoSansHans-Medium;
+        font-size     : 14px;
+        color         : #B5B5B5;
+        letter-spacing: 0;
+        text-align    : center;
+    }
+
+}
+
+
+
+
+.pannelContent {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    height         : 200px;
+
+    .largeFileView {
+        display        : flex;
+        flex-direction : row;
+        justify-content: center;
+        align-items    : center;
+        font-family    : @NotoSansHans-Medium;
+        font-size      : 16px;
+        color          : #000000;
+        letter-spacing : 0;
+        text-align     : center;
+
+        div {
+            width          : 40px;
+            height         : 37px;
+            min-width      : 40px;
+            min-height     : 37px;
+            margin-right   : 17px;
+            background     : url("@{myAliCould}/warning.png") no-repeat center;
+            background-size: cover;
+        }
+    }
+
+
+
+    .middlePannelView {
+        display        : flex;
+        flex-direction : row;
+        justify-content: center;
+        align-items    : flex-start;
+        position       : relative;
+
+        .fileNametext {
+            max-width         : 150px;
+            line-height       : 20px !important;
+            font-family       : @NotoSansHans-Medium;
+            font-size         : 16px;
+            color             : #000000;
+            letter-spacing    : 0;
+            text-align        : center;
+            height            : 40px;
+            max-height        : 40px;
+            text-overflow     : ellipsis;
+            display           : -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow          : hidden;
+            word-break        : break-all;
+            // max-width     : 100%;
+        }
+    }
+
+    .hintText {
+        font-family   : @NotoSansHans-Medium;
+        font-size     : 16px;
+        color         : #000000;
+        letter-spacing: 0;
+        text-align    : center;
+        line-height   : 26px;
+    }
+
+    .ClickToUpload:hover {
+        border: #FCBE31 4px solid;
+    }
+
+    .ClickToUpload {
+        display         : flex;
+        flex-direction  : row;
+        align-items     : center;
+        justify-content : center;
+        width           : 188px;
+        height          : 45px;
+        background-color: #064969;
+        cursor          : pointer;
+        margin-top      : 30px;
+
+        div {
+            width          : 21px;
+            height         : 21px;
+            margin-right   : 11px;
+            background     : url("@{myAliCould}/upload_white.png") no-repeat center;
+            background-size: contain;
+        }
+
+        p {
+            font-family   : @NotoSansHans-Medium;
+            font-size     : 16px;
+            color         : #FFFFFF;
+            letter-spacing: 0;
+            text-align    : center;
+            margin-bottom : 0px;
+        }
+    }
+
+
+}
+
+
+.arrowLineDiv {
+    // margin-left      : 20px;
+    font-family      : @NotoSansHans-Medium;
+    font-size        : 16px;
+    color            : #EB6331;
+    // margin-top    : -48px;
+    display          : flex;
+    flex-direction   : column;
+    align-items      : center;
+
+    p {
+        padding      : 6px 0px;
+        margin-bottom: 0px !important;
+    }
+}
+
+.arrowLine {
+    position        : relative;
+    width           : 84px;
+    padding-right   : 30px;
+    height          : 3px;
+    background-color: #EB6331;
+}
+
+.arrowLine:after {
+    margin-right: -10px;
+    margin-top  : -6px;
+    border      : 8px solid transparent;
+    border-left : 8px solid #EB6331;
+    width       : 0;
+    height      : 0;
+    position    : absolute;
+    right       : 0px;
+    content     : ' '
+}
+
+
+
+.yellowPannel {
+    .ant-upload.ant-upload-drag {
+        background-color: #FFFFFF !important;
+        box-shadow      : 0 8px 30px 0 #E8EDF0;
+    }
+
+    .ant-upload-drag-container {
+        background-color: #FFFFFF;
+        border          : dashed 2px #BBCBD5;
+        box-shadow      : 0 8px 30px 0 #E8EDF0;
+    }
+}
+
+.whitePannel {
+    .ant-upload.ant-upload-drag {
+        background-color: white;
+        border          : 3px solid #E6E6E6;
+    }
+
+    .ant-upload-drag-container {
+        background-color: white;
+    }
+}
+
+.ant-progress-inner,
+.ant-progress-bg {
+    border-radius: 0px !important;
+}

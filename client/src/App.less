@@ -1,0 +1,193 @@
+@import '~antd/dist/antd.css';
+@import './common.less';
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.ant-layout-header,
+.ant-layout {
+    background-color: white !important;
+}
+
+.logo2 {
+    width          : 110px;
+    height         : 110px;
+    background     : url("@{myAliCould}/logo2.png") no-repeat center;
+    background-size: contain;
+}
+
+.footerColumn {
+    height         : 100px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    margin         : 0 auto;
+}
+
+.itemCenter {
+    align-items: center;
+}
+
+.textAlignLeft {
+    align-items: flex-start;
+}
+
+.wetChartIcon {
+    width           : 71px;
+    height          : 71px;
+    background-color: antiquewhite;
+}
+
+.VDivider {
+    background-color: black;
+    height          : 101px;
+    width           : 1px;
+}
+
+.projectIcon {
+    width           : 35px;
+    height          : 35px;
+    background-color: antiquewhite;
+}
+
+.proIcon {
+    width           : 50px;
+    height          : 50px;
+    background-color: antiquewhite;
+}
+
+.proName {
+    font-size  : 20px;
+    font-family: "NotoSansHans-Bold"
+}
+
+.animation-page {
+    height: 100%;
+}
+
+// /* 入场动画开始 */
+// .fade-enter,
+// .fade-appear {
+//     transform: translateX(100%);
+// }
+
+// /*入场动画过程*/
+// .fade-enter-active,
+// .fade-appear-active {
+//     transform : translateX(0);
+//     transition: transform 0.5s ease;
+// }
+
+// /*入场动画结束*/
+// /* .fade-enter-done {
+//     transform: translateX(0);
+// } */
+
+// /*离场动画开始*/
+// .fade-exit {
+//     transform: translateX(0);
+// }
+
+// /*离场动画过程*/
+// .fade-exit-active {
+//     transform : translateX(-100%);
+//     transition: transform 0.5s ease;
+// }
+
+// /*离场动画结束*/
+// .fade-exit-done {
+//     transform: translateX(-100%);
+// }
+
+// /*页面第一次加载时的开始状态*/
+// /* .fade-appear {
+//     transform: translateX(100%);
+// } */
+
+// /*页面第一次加载时的动画过程*/
+// /* .fade-appear-active {
+//     transform: translateX(0%);
+//     transition: transform 0.5s ease-in;
+// } */
+
+
+
+
+// /* 反向back */
+// /*入场动画开始*/
+// .refade-enter,
+// .refade-appear {
+//     transform: translateX(-100%);
+// }
+
+// /*入场动画过程*/
+// .refade-enter-active,
+// .refade-appear-active {
+//     transform : translateX(0%);
+//     transition: transform 0.5s ease;
+// }
+
+// /*入场动画结束*/
+// .refade-enter-done {
+//     transform: translateX(0%);
+// }
+
+// /*离场动画开始*/
+// .refade-exit {
+//     transform: translateX(0%);
+// }
+
+// /*离场动画过程*/
+// .refade-exit-active {
+//     transform : translateX(100%);
+//     transition: transform 0.5s ease;
+// }
+
+// /*离场动画结束*/
+// .refade-exit-done {
+//     transform: translateX(100%);
+// }
+
+// /*页面第一次加载时的开始状态*/
+// /* .refade-appear {
+//     transform: translateX(0);
+// } */
+
+/*页面第一次加载时的动画过程*/
+/* .refade-appear-active {
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+} */
+
+//new
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-appear-active,
+.fade-enter-active {
+    opacity   : 1;
+    transition: opacity 1s ease-in;
+}
+
+.fade-appear-done,
+.fade-enter-done {
+    opacity: 1;
+}
+
+//old 
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity   : 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-exit-done {
+    opacity: 0;
+}

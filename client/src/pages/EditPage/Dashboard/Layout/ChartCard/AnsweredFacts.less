@@ -1,0 +1,121 @@
+@import '../../../../../../src/common.less';
+
+.inner-auto-layout {
+    flex            : 1;
+    display         : flex;
+    position        : relative;
+    background-color: white;
+
+    .hightlight {
+        background-color: #F6C02A;
+        color           : white;
+        padding         : 1px 2px 1px 2px;
+    }
+
+    .test {
+        position: absolute;
+        top     : 5px;
+        right   : 0px;
+        z-index : 99;
+    }
+
+    .chart-card .wrapper {
+        width : 100%;
+        height: 100%;
+    }
+
+    .chart-card {
+        // border        : 1px solid #304C70;
+        flex           : 1;
+        display        : flex;
+        flex-direction : column;
+        justify-content: center;
+        align-items    : center;
+        width          : 100%;
+        height         : 100%;
+        background     : #FFFFFF;
+        box-shadow     : 0px 0px 10px 0 rgba(179, 203, 214, 0.50);
+        padding-bottom : 15px;
+        position       : relative;
+
+        .delete:hover {
+            background      : url("@{myAliCould}/delete_yellow.png") no-repeat center;
+            background-size : 10px 10px;
+            background-color: white;
+        }
+
+        .delete {
+            position        : absolute;
+            top             : 10px;
+            right           : 10px;
+            width           : 20px;
+            height          : 20px;
+            background      : url("@{myAliCould}/delete.png") no-repeat center;
+            background-size : 10px 10px;
+            background-color: white;
+            border-radius   : 10px;
+            cursor          : pointer;
+        }
+
+        .editButton {
+            position        : absolute;
+            top             : 5px;
+            right           : 5px;
+            width           : 20px;
+            height          : 20px;
+            background      : url("@{myAliCould}/edit_black.png") no-repeat center;
+            background-size : 13px 13px;
+            background-color: white;
+            box-shadow      : 0 1px 2px 0 rgba(155, 155, 155, 0.50);
+            border-radius   : 1px;
+            display         : none;
+            cursor          : pointer;
+        }
+
+        .editButton:hover {
+            background      : url("@{myAliCould}/edit_yellow.png") no-repeat center;
+            background-size : 13px 13px;
+            background-color: white;
+        }
+
+        .caption {
+            width                   : 100%;
+            background-color        : white;
+            font-size               : 18px;
+            font-family             : @Arial;
+            color                   : #525252;
+            text-align              : center;
+            line-height             : 20px;
+            font-weight             : 400;
+            text-align              : center;
+            margin-top              : 7px;
+            padding                 : 0px 23px;
+            // height               : 100px;
+            // overflow          : hidden;
+            // text-overflow     : ellipsis;
+            // display           : -webkit-box;
+            // -webkit-line-clamp: 6;
+            // -webkit-box-orient: vertical;
+        }
+
+        .vis-box {
+            width           : 100%;
+            display         : flex;
+            flex-direction  : column;
+            align-items     : center;
+            justify-content : center;
+            background-color: white;
+
+            .bound-box {
+                width             : 100%;
+                height            : 100%;
+                // overflow       : hidden !important;
+                overflow          : scroll;
+                display           : flex;
+                flex-direction    : column;
+                align-items       : center;
+                justify-content   : center;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "difference",
+    "measure": [
+        {
+            "field": "Sales",
+            "aggregate": "sum"
+        }
+    ],
+    "subspace": [
+        {
+            "field": "Year",
+            "value": "2007/1/1"
+        }
+    ],
+    "groupby": ["Brand"],
+    "focus": [
+        {
+            "field": "Brand",
+            "value": "BMW"
+        },
+        {
+            "field": "Brand",
+            "value": "Ford"
+        }
+    ]
+}

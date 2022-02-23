@@ -1,0 +1,245 @@
+@import '../../../../../src/common.less';
+
+.large-size-screen {
+    width         : 100%;
+    height        : 100%;
+    display       : flex;
+    flex-direction: column;
+    position      : relative;
+
+    .test {
+        position: absolute;
+        top     : 5px;
+        right   : 200px;
+    }
+
+    .sub_test {
+        position: absolute;
+        top     : 5px;
+        right   : 100px;
+    }
+
+
+    .title {
+        display           : flex;
+        flex-direction    : row;
+        background        : url('../../../../images/decorator/bar.png') no-repeat bottom;
+        background-size   : cover;
+        font-weight       : 700;
+        height            : 73px;
+        min-height        : 73px;
+        // margin-bottom  : 17px;
+        justify-content   : center;
+        align-items       : center;
+
+
+        .QA_icon {
+            width          : 20px;
+            height         : 20px;
+            background     : url(../../../../images/title.png) no-repeat center;
+            background-size: contain;
+        }
+
+        h1 {
+            flex       : 1;
+            font-family: @Arial;
+            font-size  : 32px;
+            color      : #FFFFFF;
+            text-align : left;
+            font-weight: 700;
+            text-align : center;
+            text-align : center;
+        }
+
+        .fullscreen_icon {
+            position       : absolute;
+            right          : 15px;
+            width          : 32px;
+            height         : 32px;
+            background     : url(../../../../images/icon/fullscreen.png) no-repeat center;
+            background-size: contain;
+            top            : 10px;
+            cursor         : pointer;
+        }
+
+        .export_icon {
+            position       : absolute;
+            right          : 62px;
+            width          : 32px;
+            height         : 32px;
+            background     : url(../../../../images/icon/export_white.png) no-repeat center;
+            background-size: contain;
+            top            : 10px;
+            cursor         : pointer;
+        }
+    }
+
+
+
+
+    .sub-title-box {
+        .right-box {
+            position: relative;
+            width   : 100%;
+            height  : 5px;
+
+            .right-top {
+                position: absolute;
+                top     : 0;
+                right   : 0;
+
+                width : 36px;
+                height: 5px;
+            }
+
+            .default {
+                background     : url(../../../../images/decorator/title.png) no-repeat center;
+                background-size: contain;
+
+            }
+
+            .hightlight {
+                background     : url(../../../../images/decorator/right-top-yellow.png) no-repeat center;
+                background-size: contain;
+            }
+        }
+
+
+        .sub-title {
+            height         : 50px;
+            display        : flex;
+            flex-direction : row;
+            justify-content: center;
+            align-items    : center;
+            border         : 2px solid;
+            position       : sticky;
+
+            .index {
+                width              : 49px;
+                height             : 46px;
+                line-height        : 46px;
+                text-align         : center;
+                // font-family     : Arial-BoldMT;
+                font-size          : 26px;
+                color              : #FFFFFF;
+                font-weight        : 700;
+                display            : flex;
+                justify-content    : center;
+            }
+
+            .default {
+                background: linear-gradient(180deg, #4F5A7D 0%, #88AAC5 100%);
+            }
+
+            .hightlight {
+                background-image: linear-gradient(180deg, #F19C0F 0%, #FFD38D 100%);
+            }
+
+            h1 {
+                // font-family: Arial-BoldMT;
+                // flex      : 1;
+                margin            : 0px 15px;
+                font-size         : 22px;
+                color             : #3D3D3D;
+                text-align        : left;
+                font-weight       : 700;
+                text-align        : left;
+                text-align        : center;
+                overflow          : hidden;
+                text-overflow     : ellipsis;
+                font-family       : @Arial;
+                display           : -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                cursor            : text;
+                flex              : 1;
+            }
+
+            // h1:hover {
+            //     text-overflow: inherit;
+            //     overflow     : visible;
+            // }
+        }
+
+
+        .divider {
+            margin: 10px 0px;
+            width : 100%;
+            height: 1px;
+            border: 1px solid #D5DFED;
+        }
+    }
+
+    .d1 {
+        position       : absolute;
+        top            : calc(50% - 127.5px);
+        left           : 0;
+        background     : url(../../../../images/decorator/rec1.png) no-repeat center;
+        background-size: contain;
+        width          : 12px;
+        height         : 255px;
+        z-index        : 99;
+
+    }
+
+    .d2 {
+        position       : absolute;
+        top            : calc(50% - 127.5px);
+        right          : 0;
+        background     : url(../../../../images/decorator/rec2.png) no-repeat center;
+        background-size: contain;
+        width          : 12px;
+        height         : 255px;
+        z-index        : 99;
+    }
+
+    .auto-layout {
+        height            : 100%;
+        padding           : 5px;
+        -webkit-column-gap: 8px;
+        /* Chrome, Safari, Opera */
+        -moz-column-gap   : 8px;
+        /* Firefox */
+        column-gap        : 8px;
+        padding           : 23px 18px 0px 18px !important;
+        position          : relative;
+
+        .dec1 {
+            position       : absolute;
+            top            : 0;
+            left           : 18px;
+            background     : url(../../../../images/decorator/1.png) no-repeat center;
+            background-size: contain;
+            width          : 71px;
+            height         : 9px;
+        }
+
+        .dec2 {
+            position       : absolute;
+            top            : 0;
+            right          : 18px;
+            background     : url(../../../../images/decorator/2.png) no-repeat center;
+            background-size: contain;
+            width          : 71px;
+            height         : 9px;
+        }
+    }
+
+    .auto-layout .subView {
+        // margin        : 2px;
+        display       : inline-block;
+        display       : flex;
+        flex-direction: column;
+        background    : white;
+        margin-bottom : 15px;
+        position      : relative;
+    }
+
+    .auto-layout .empty-box {
+        height         : 100%;
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+    }
+
+}

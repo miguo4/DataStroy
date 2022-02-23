@@ -1,0 +1,139 @@
+@import "../../common.less";
+
+.headerBarWrapper {
+    width         : 100%;
+    height        : 50px;
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+
+    .headerBarLeft {
+        height        : 50px;
+        display       : flex;
+        flex-direction: row;
+        position      : relative;
+        align-items   : center;
+
+        span {
+            font-family: @NotoSansHans-Medium;
+            font-size  : 22px;
+            line-height: 22px;
+            color      : #000000;
+            text-align : left;
+            margin-left: 5px;
+            white-space: nowrap;
+        }
+
+        div {
+            // margin-left    : 23.1px;
+            margin-left       : 30.1px;
+            margin-right      : 11.1px;
+            height            : 53px;
+            width             : 53px;
+            background        : url('@{myAliCould}/headbar/logo1.png') left no-repeat;
+            background-size   : contain;
+            // cursor         : pointer;
+        }
+
+    }
+
+    .headerBarRight {
+        height         : 50px;
+        flex-direction : row;
+        display        : flex;
+        align-items    : center;
+        justify-content: flex-start;
+        margin-right   : 10px;
+
+        .ant-divider-vertical {
+            height          : 24px;
+            width           : 2px;
+            background-color: black;
+            margin          : 0px 16px;
+        }
+
+        .defaultimg {
+            height         : 26px;
+            width          : 23px;
+            background     : url('@{myAliCould}/headbar/user.png') center no-repeat;
+            background-size: contain;
+        }
+
+        .AvatarImg {
+            height         : 26px;
+            width          : 26px;
+            background-size: contain;
+            background     : #ffe3b1;
+            color          : #38291f;
+
+            span {
+                height     : 26px;
+                line-height: 26px;
+            }
+        }
+
+        .userName:hover {
+            text-decoration: underline;
+        }
+
+        .userName {
+            margin-left : 9px;
+            margin-right: 16px;
+            font-size   : 14px;
+            font-family : @NotoSansHans-Regular;
+            cursor      : pointer;
+        }
+
+        .LogInBt {
+            width        : 70px;
+            height       : 25px;
+            line-height  : 21px;
+            border       : 2px solid #000000;
+            border-radius: 20px;
+            font-family  : @NotoSansHans-Regular;
+            font-size    : 16px;
+            color        : #000000;
+            cursor       : pointer;
+            text-align   : center;
+        }
+
+        .Logout,
+        .SignUp {
+            height         : 28px;
+            width          : 84px;
+            line-height    : 14px;
+            font-size      : 14px;
+            padding        : 14px 3px;
+            display        : flex;
+            flex-direction : column;
+            align-items    : center;
+            justify-content: center;
+            border         : 1.5px solid #FFE9C2;
+            border-radius  : 21.5px;
+            white-space    : nowrap;
+            font-family    : @NotoSansHans-Regular;
+            cursor         : pointer;
+        }
+    }
+
+}
+
+@media screen and (min-width:524px) {
+    .ant-layout-header {
+        padding: 0px 30px !important;
+    }
+}
+
+@media screen and (max-width:524px) {
+    .ant-layout-header {
+        padding: 0px 10px !important;
+    }
+
+    .headerBarRight {
+
+        div:nth-child(2),
+        div:nth-child(3) {
+            display: none;
+        }
+    }
+}

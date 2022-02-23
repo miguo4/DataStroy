@@ -1,0 +1,46 @@
+.data-page {
+    width           : 100%;
+    height          : 100%;
+    background-color: #F9F9F9;
+    position        : relative;
+    display         : flex;
+    flex-direction  : row;
+
+    .ant-table-cell {
+        white-space: nowrap !important;
+    }
+
+
+    .left {
+        display         : flex;
+        flex-direction  : column;
+        flex            : 1;
+        margin          : 0px 17px;
+        padding         : 17px 0px 0 0;
+        box-sizing      : border-box;
+        overflow-y      : hidden;
+        position        : relative;
+        background-color: white;
+        height          : 100%;
+
+    }
+
+    .table-box {
+        width     : 100%;
+        flex      : 1;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .right {
+        display                  : flex;
+        flex-direction           : column;
+        width                    : 361px;
+        height                   : 100%;
+        border-top-left-radius   : 10px;
+        border-bottom-left-radius: 10px;
+        box-shadow               : 0px 0px 10px 10px rgba(167, 167, 167, 0.50);
+        z-index                  : 99;
+        background-color         : white;
+    }
+}

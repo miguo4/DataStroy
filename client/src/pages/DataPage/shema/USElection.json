@@ -1,0 +1,46 @@
+{
+    "statistics": {
+        "column": 4,
+        "row": 19483,
+        "numerical": 1,
+        "categorical": 2,
+        "temporal": 0,
+        "geographical": 1,
+        "ID": 0,
+        "text": 0,
+        "column_high_cardinality": 0,
+        "column_constant": 0
+    },
+    "fields": [{
+        "field": "state",
+        "type": "geographical",
+        "subtype": "usa",
+        "hierarchy": "state",
+        "values": ["Delaware", "District of Columbia", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming", "Alabama", "Arkansas", "California", "Colorado", "Connecticut", "Alaska", "Arizona"],
+        "isUnique": false,
+        "isPostCode": false,
+        "child": "not_existed",
+        "parent": "not_existed"
+    }, {
+        "field": "candidate",
+        "type": "categorical",
+        "subtype": "unknown",
+        "values": ["Biden", "Trump", "Jorgensen", "Hawkins", "Riva", "Fuente"],
+        "isUnique": false
+    }, {
+        "field": "party",
+        "type": "categorical",
+        "subtype": "party",
+        "values": ["DEM", "REP", "LIB", "GRN", "PSL", "ALI"],
+        "isUnique": false
+    }, {
+        "field": "votes",
+        "type": "numerical",
+        "subtype": "integer+",
+        "mean": 7710.2690037468565,
+        "median": 258.0,
+        "std": 41539.740916525094,
+        "var": 1725550075.4120293,
+        "aggregate": ["sum", "min", "max", "avg"]
+    }]
+}

@@ -1,0 +1,2102 @@
+[
+    {
+        "type": "bridge_subspace",
+        "fact1": "association",
+        "fact2": "association",
+        "logic": true,
+        "template": "What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that has a highest association between <measure_1_1> and <measure_1_2>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "association",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "List all the <breakdown_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>."
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "association",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Show me the <measure_2> over <breakdown_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>."
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "association",
+        "fact2": "difference",
+        "logic": true,
+        "template": "What is the difference between <measure_2> of <focus_2_1> and <focus_2_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "association",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Which <breakdown_2> has the highest <measure_2> in the <bridge> that has a highest association between <measure_1_1> and <measure_1_2>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "association",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "association",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "What is the ratio of the <focus_2>'s <measure_2> in the <bridge> that has a highest association between <measure_1_1> and <measure_1_2>."
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "association",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you show me the ranking list of <breakdown_2> order by <measure_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>."
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "association",
+        "fact2": "trend",
+        "logic": true,
+        "template": "What is the tendency of the <measure_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "association",
+        "fact2": "value",
+        "logic": true,
+        "template": "What is the sum of <measure_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "categorization",
+        "fact2": "association",
+        "logic": true,
+        "template": "What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> which has four <breakdown_1>s?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "categorization",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "List all the <breakdown_2>  in the <bridge> which has four <breakdown_1>s?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "categorization",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Show me the <measure_2> over <breakdown_2> in the <bridge> which has four <breakdown_1>s?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "categorization",
+        "fact2": "difference",
+        "logic": true,
+        "template": "What is the difference between <measure_2> of <focus_2_1> and <focus_2_2> in the <bridge> which has four <breakdown_1>s?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "categorization",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Which <breakdown_2> has the highest <measure_2> in the <bridge> which has four <breakdown_1>s?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "categorization",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> which has four <breakdown_1>s?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "categorization",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "What is the ratio of the <focus_2>'s <measure_2> in the <bridge> which has four <breakdown_1>s?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "categorization",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you show me the ranking list of <breakdown_2> order by <measure_2> in the <bridge> which has four <breakdown_1>s?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "categorization",
+        "fact2": "trend",
+        "logic": true,
+        "template": "What is the tendency of the <measure_2> in the <bridge> which has four <breakdown_1>s?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "categorization",
+        "fact2": "value",
+        "logic": true,
+        "template": "What is the sum of <measure_2> in the <bridge> which has four <breakdown_1>s?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "distribution",
+        "fact2": "association",
+        "logic": true,
+        "template": "What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "distribution",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "List all the <breakdown_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "distribution",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Show me the <measure_2> over <breakdown_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "distribution",
+        "fact2": "difference",
+        "logic": true,
+        "template": "What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "distribution",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Which <breakdown_2> has the highest <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "distribution",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Is there any <breakdown_2> has an uncommon <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "distribution",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "What is the ratio of the <focus_2>'s <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "distribution",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "distribution",
+        "fact2": "trend",
+        "logic": true,
+        "template": "What is the tendency of the <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "distribution",
+        "fact2": "value",
+        "logic": true,
+        "template": "What is the sum of <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "difference",
+        "fact2": "association",
+        "logic": true,
+        "template": "What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "difference",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "List all the <breakdown_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>."
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "difference",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Show me the <measure_2> over <breakdown_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "difference",
+        "fact2": "difference",
+        "logic": true,
+        "template": "What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "difference",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Which <breakdown_2> has the highest <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "difference",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Is there any <breakdown_2> has an uncommon <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "difference",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "What is the ratio of the <focus_2>'s <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "difference",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "difference",
+        "fact2": "trend",
+        "logic": true,
+        "template": "What is the tendency of the <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "difference",
+        "fact2": "value",
+        "logic": true,
+        "template": "What is the sum of <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "extreme",
+        "fact2": "association",
+        "logic": true,
+        "template": "What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that has the largest <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "extreme",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "List all the <breakdown_2>  in the <bridge> that has the largest <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "extreme",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Show me the <measure_2> over <breakdown_2> in the <bridge> that has the largest <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "extreme",
+        "fact2": "difference",
+        "logic": true,
+        "template": "What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> that has the largest <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "extreme",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Which <breakdown_2> has the highest <measure_2>  in the <bridge> that has the largest <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "extreme",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> that has the largest <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "extreme",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "What is the ratio of the <focus_2>'s <measure_2> in the <bridge> that has the largest <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "extreme",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> that has the largest <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "extreme",
+        "fact2": "trend",
+        "logic": true,
+        "template": "What is the tendency of the <measure_2>  in the <bridge> that has the largest <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "extreme",
+        "fact2": "value",
+        "logic": true,
+        "template": "What is the sum of <measure_2>  in the <bridge> that has the largest <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "outlier",
+        "fact2": "association",
+        "logic": true,
+        "template": "What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> which has an uncommon <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "outlier",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "List all the <breakdown_2>  in the <bridge> which has an uncommon <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "outlier",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Show me the <measure_2> over <breakdown_2> in the <bridge> which has an uncommon <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "outlier",
+        "fact2": "difference",
+        "logic": true,
+        "template": "What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> which has an uncommon <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "outlier",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Which <breakdown_2> has the highest <measure_2>  in the <bridge> that has an uncommon <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "outlier",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> that has an uncommon <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "outlier",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "What is the ratio of the <focus_2>'s <measure_2> in the <bridge> which has an uncommon <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "outlier",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> which has an uncommon <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "outlier",
+        "fact2": "trend",
+        "logic": true,
+        "template": "What is the tendency of the <measure_2>  in the <bridge> which has an uncommon <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "outlier",
+        "fact2": "value",
+        "logic": true,
+        "template": "What is the sum of <measure_2>  in the <bridge> which has an uncommon <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "proportion",
+        "fact2": "association",
+        "logic": true,
+        "template": "What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that occupies the highest proportion of <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "proportion",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "List all the <breakdown_2>  in the <bridge> that occupies the highest proportion of <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "proportion",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Show me the <measure_2> over <breakdown_2> in the <bridge> that occupies the highest proportion of <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "proportion",
+        "fact2": "difference",
+        "logic": true,
+        "template": "What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> that occupies the highest proportion of <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "proportion",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Which <breakdown_2> has the highest <measure_2>  in the <bridge> that occupies the highest proportion of <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "proportion",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> that occupies the highest proportion of <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "proportion",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "What is the ratio of the <focus_2>'s <measure_2> in the <bridge> that occupies the highest proportion of <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "proportion",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> that occupies the highest proportion of <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "proportion",
+        "fact2": "trend",
+        "logic": true,
+        "template": "What is the tendency of the <measure_2>  in the <bridge> that occupies the highest proportion of <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "proportion",
+        "fact2": "value",
+        "logic": true,
+        "template": "What is the sum of <measure_2>  in the <bridge> that occupies the highest proportion of <measure_1>?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "rank",
+        "fact2": "association",
+        "logic": true,
+        "template": "What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that is the top 1 in the <measure_1> ranking list?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "rank",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "List all the <breakdown_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "rank",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Show me the <measure_2> over <breakdown_2> in the <bridge> that is the top 1 in the <measure_1> ranking list?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "rank",
+        "fact2": "difference",
+        "logic": true,
+        "template": "What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "rank",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Which <breakdown_2> has the highest <measure_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "rank",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> that is the top 1 in the <measure_1> ranking list?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "rank",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "What is the ratio of the <focus_2>'s <measure_2> in the <bridge> that is the top 1 in the <measure_1> ranking list?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "rank",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "rank",
+        "fact2": "trend",
+        "logic": true,
+        "template": "What is the tendency of the <measure_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?"
+    },
+    {
+        "type": "bridge_focus",
+        "fact1": "rank",
+        "fact2": "value",
+        "logic": true,
+        "template": "What is the sum of <measure_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "trend",
+        "fact2": "association",
+        "logic": true,
+        "template": "What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that has an increasing <measure_1> trend?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "trend",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "List all the <breakdown_2>  in the <bridge> that has an increasing <measure_1> trend?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "trend",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Show me the <measure_2> over <breakdown_2> in the <bridge> that has an increasing <measure_1> trend?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "trend",
+        "fact2": "difference",
+        "logic": true,
+        "template": "What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> that has an increasing <measure_1> trend?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "trend",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Which <breakdown_2> has the highest <measure_2>  in the <bridge> that has an increasing <measure_1> trend?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "trend",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> that has an increasing <measure_1> trend?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "trend",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "What is the ratio of the <focus_2>'s <measure_2> in the <bridge> that has an increasing <measure_1> trend?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "trend",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> that has an increasing <measure_1> trend?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "trend",
+        "fact2": "trend",
+        "logic": true,
+        "template": "What is the tendency of the <measure_2>  in the <bridge> that has an increasing <measure_1> trend?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "trend",
+        "fact2": "value",
+        "logic": true,
+        "template": "What is the sum of <measure_2>  in the <bridge> that has an increasing <measure_1> trend?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "value",
+        "fact2": "association",
+        "logic": true,
+        "template": "What is the relationship between <measure_2_1> and <measure_2_2>  in the <bridge> whose <measure_1> is increasing?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "value",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "List all the <breakdown_2>  in the <bridge> whose <measure_1> is increasing?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "value",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Show me the <measure_2> over <breakdown_2> in the <bridge> whose <measure_1> is increasing?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "value",
+        "fact2": "difference",
+        "logic": true,
+        "template": "What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> whose <measure_1> is increasing ?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "value",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Which <breakdown_2> has the highest <measure_2>  in the <bridge> whose <measure_1> is increasing?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "value",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> whose <measure_1> is increasing?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "value",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "What is the ratio of the <focus_2>'s <measure_2> in the <bridge> whose <measure_1> is increasing?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "value",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> whose <measure_1> is increasing?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "value",
+        "fact2": "trend",
+        "logic": true,
+        "template": "What is the tendency of the <measure_2>  in the <bridge> whose <measure_1> is increasing?"
+    },
+    {
+        "type": "bridge_subspace",
+        "fact1": "value",
+        "fact2": "value",
+        "logic": true,
+        "template": "What is the sum of <measure_2>  in the <bridge> whose <measure_1> is increasing?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "association",
+        "fact2": "association",
+        "logic": true,
+        "template": "Which <intersection> has both high degree of correlation between <measure_1_1> and <measure_1_2>, and <measure_2_1> and <measure_2_2>?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "association",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "Which <intersection> has a high degree of correlation between <measure_1_1> and <measure_1_2> and four <breakdown_2>s?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "association",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Which <intersection> has a high degree of correlation between <measure_1_1> and <measure_1_2> and uncommon <measure_2> over <breakdown_2>s?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "association",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "association",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "association",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "association",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "association",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "association",
+        "fact2": "trend",
+        "logic": true,
+        "template": "Which <intersection> has a high degree of correlation between <measure_1_1> and <measure_1_2> and an increasing tendency of <measure_2>��"
+    },
+    {
+        "type": "intersection",
+        "fact1": "association",
+        "fact2": "value",
+        "logic": true,
+        "template": "Which <intersection> has high degree of correlation between <measure_1_1> and <measure_1_2> and an increasing tendency of <measure_2>��"
+    },
+    {
+        "type": "intersection",
+        "fact1": "categorization",
+        "fact2": "association",
+        "logic": true,
+        "template": "Which <intersection> has four <breakdown_1>s and a high degree of correlation between <measure_2_1> and <measure_2_2>? "
+    },
+    {
+        "type": "intersection",
+        "fact1": "categorization",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "Which <intersection> has four <breakdown_1>s and five <breakdown_2>s?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "categorization",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Which <intersection> has four <breakdown_1>s and uncommon <measure_2> over <breakdown_2>s?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "categorization",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "categorization",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "categorization",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "categorization",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "categorization",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "categorization",
+        "fact2": "trend",
+        "logic": true,
+        "template": "Which <intersection> has four <breakdown_1>s and an increasing tendency of <measure_2>?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "categorization",
+        "fact2": "value",
+        "logic": true,
+        "template": "Which <intersection> has four <breakdown_1>s and a high <measure_2>?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "distribution",
+        "fact2": "association",
+        "logic": true,
+        "template": "Which <intersection> has uncommon <measure_1> over <breakdown_1>s and a high degree of correlation between <measure_2_1> and <measure_2_2>? "
+    },
+    {
+        "type": "intersection",
+        "fact1": "distribution",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "Which <intersection> has uncommon <measure_1> over <breakdown_1>s and four <breakdown_2>s?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "distribution",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Which <intersection> has uncommon <measure_1> over <breakdown_1>s and <measure_2> over <breakdown_2>s"
+    },
+    {
+        "type": "intersection",
+        "fact1": "distribution",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "distribution",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "distribution",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "distribution",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "distribution",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "distribution",
+        "fact2": "trend",
+        "logic": true,
+        "template": "Which <intersection> has uncommon <measure_1> over <breakdown_1>s and an increasing tendency of <measure_2>��"
+    },
+    {
+        "type": "intersection",
+        "fact1": "distribution",
+        "fact2": "value",
+        "logic": true,
+        "template": "Which <intersection> has uncommon <measure_1> over <breakdown_1>s and a high <measure_2>?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "difference",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "difference",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "difference",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "difference",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "difference",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "difference",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "difference",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "difference",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "difference",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "difference",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "extreme",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "extreme",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "extreme",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "extreme",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "extreme",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "extreme",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "extreme",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "extreme",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "extreme",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "extreme",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "outlier",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "outlier",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "outlier",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "outlier",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "outlier",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "outlier",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "outlier",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "outlier",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "outlier",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "outlier",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "proportion",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "proportion",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "proportion",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "proportion",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "proportion",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "proportion",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "proportion",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "proportion",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "proportion",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "proportion",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "rank",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "rank",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "rank",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "rank",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "rank",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "rank",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "rank",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "rank",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "rank",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "rank",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "trend",
+        "fact2": "association",
+        "logic": true,
+        "template": "Which <intersection> has an increasing tendency of <measure_1> and a high degree of correlation between <measure_2_1> and <measure_2_2> "
+    },
+    {
+        "type": "intersection",
+        "fact1": "trend",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "Which <intersection> has an increasing tendency of <measure_1> and four <breakdown_2>s?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "trend",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Which <intersection> has an increasing tendency of <measure_1> and uncommon <measure_2> over <breakdown_2>s?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "trend",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "trend",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "trend",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "trend",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "trend",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "trend",
+        "fact2": "trend",
+        "logic": true,
+        "template": "Which <intersection> has an increasing  tendency of <measure_1> and an increasing tendency of <measure_2>��"
+    },
+    {
+        "type": "intersection",
+        "fact1": "trend",
+        "fact2": "value",
+        "logic": true,
+        "template": "Which <intersection> has an increasing tendency of <measure_1> and a high <measure_2>?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "value",
+        "fact2": "association",
+        "logic": true,
+        "template": "Which <intersection> has  a high <measure_1> and a high degree of correlation between <measure_2_1> and <measure_2_2>?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "value",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "Which <intersection> has  a high <measure_1> and four <breakdown_2>s?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "value",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Which <intersection> has  a high <measure_1> and uncommon <measure_2> over <breakdown_2>s?"
+    },
+    {
+        "type": "intersection",
+        "fact1": "value",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "value",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "value",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "value",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "value",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "intersection",
+        "fact1": "value",
+        "fact2": "trend",
+        "logic": true,
+        "template": "Which <intersection> has  a high <measure_1> and an increasing tendency of <measure_2>��"
+    },
+    {
+        "type": "intersection",
+        "fact1": "value",
+        "fact2": "value",
+        "logic": true,
+        "template": "Which <intersection> has both a high <measure_1> and a high <measure_2>?"
+    },
+    {
+        "type": "comparison",
+        "fact1": "association",
+        "fact2": "association",
+        "logic": true,
+        "template": "Which one has a higher degree of relationship between <measure_1_1> and <measure_1_2>, <comp_1> or <comp_2>?"
+    },
+    {
+        "type": "comparison",
+        "fact1": "association",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "association",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "association",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "association",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "association",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "association",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "association",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "association",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "association",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "categorization",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "categorization",
+        "fact2": "categorization",
+        "logic": true,
+        "template": "Which one has more <breakdown_1>s, <comp_1> or <comp_2>?"
+    },
+    {
+        "type": "comparison",
+        "fact1": "categorization",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "categorization",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "categorization",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "categorization",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "categorization",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "categorization",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "categorization",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "categorization",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "distribution",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "distribution",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "distribution",
+        "fact2": "distribution",
+        "logic": true,
+        "template": "Can you compare the distribution between <comp_1> and <comp_2>?"
+    },
+    {
+        "type": "comparison",
+        "fact1": "distribution",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "distribution",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "distribution",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "distribution",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "distribution",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "distribution",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "distribution",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "difference",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "difference",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "difference",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "difference",
+        "fact2": "difference",
+        "logic": true,
+        "template": "Which one has a higher difference of <measure_1> between <focus_1> and <focus_2>, <comp_1> or <comp_2>?"
+    },
+    {
+        "type": "comparison",
+        "fact1": "difference",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "difference",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "difference",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "difference",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "difference",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "difference",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "extreme",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "extreme",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "extreme",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "extreme",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "extreme",
+        "fact2": "extreme",
+        "logic": true,
+        "template": "Can you compare the maximum <measure_1> among all <breakdown_1>s  between <comp_1> or <comp_2>?"
+    },
+    {
+        "type": "comparison",
+        "fact1": "extreme",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "extreme",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "extreme",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "extreme",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "extreme",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "outlier",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "outlier",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "outlier",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "outlier",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "outlier",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "outlier",
+        "fact2": "outlier",
+        "logic": true,
+        "template": "Can you compare the outliers according to the <measure_1> by <breakdown_1>s between <comp_1> or <comp_2>?"
+    },
+    {
+        "type": "comparison",
+        "fact1": "outlier",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "outlier",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "outlier",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "outlier",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "proportion",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "proportion",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "proportion",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "proportion",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "proportion",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "proportion",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "proportion",
+        "fact2": "proportion",
+        "logic": true,
+        "template": "Which one has a higher proportion of <focus_1> for total <measure_1>, <comp_1> or <comp_2>?"
+    },
+    {
+        "type": "comparison",
+        "fact1": "proportion",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "proportion",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "proportion",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "rank",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "rank",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "rank",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "rank",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "rank",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "rank",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "rank",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "rank",
+        "fact2": "rank",
+        "logic": true,
+        "template": "Can you compare the ranking list of <breakdown_1> order by <measure_1> between <comp_1> and <comp_2>?"
+    },
+    {
+        "type": "comparison",
+        "fact1": "rank",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "rank",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "trend",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "trend",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "trend",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "trend",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "trend",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "trend",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "trend",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "trend",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "trend",
+        "fact2": "trend",
+        "logic": true,
+        "template": "Which one has a better tendency of <measure_1>, <comp_1> or <comp_2>?"
+    },
+    {
+        "type": "comparison",
+        "fact1": "trend",
+        "fact2": "value",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "value",
+        "fact2": "association",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "value",
+        "fact2": "categorization",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "value",
+        "fact2": "distribution",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "value",
+        "fact2": "difference",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "value",
+        "fact2": "extreme",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "value",
+        "fact2": "outlier",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "value",
+        "fact2": "proportion",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "value",
+        "fact2": "rank",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "value",
+        "fact2": "trend",
+        "logic": false,
+        "template": ""
+    },
+    {
+        "type": "comparison",
+        "fact1": "value",
+        "fact2": "value",
+        "logic": true,
+        "template": "Which one has a higher <measure_1>, <comp_1> or <comp_2>?"
+    }
+]

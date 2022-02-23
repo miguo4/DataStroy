@@ -1,0 +1,301 @@
+type,fact1,fact2,logic,template
+bridge_subspace,association,association,TRUE,What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that has a highest association between <measure_1_1> and <measure_1_2>?
+bridge_subspace,association,categorization,TRUE,List all the <breakdown_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>.
+bridge_subspace,association,distribution,TRUE,Show me the <measure_2> over <breakdown_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>.
+bridge_subspace,association,difference,TRUE,What is the difference between <measure_2> of <focus_2_1> and <focus_2_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>?
+bridge_subspace,association,extreme,TRUE,Which <breakdown_2> has the highest <measure_2> in the <bridge> that has a highest association between <measure_1_1> and <measure_1_2>?
+bridge_subspace,association,outlier,TRUE,Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>?
+bridge_subspace,association,proportion,TRUE,What is the ratio of the <focus_2>'s <measure_2> in the <bridge> that has a highest association between <measure_1_1> and <measure_1_2>.
+bridge_subspace,association,rank,TRUE,Can you show me the ranking list of <breakdown_2> order by <measure_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>.
+bridge_subspace,association,trend,TRUE,What is the tendency of the <measure_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>?
+bridge_subspace,association,value,TRUE,What is the sum of <measure_2> in the <bridge> which has a highest association between <measure_1_1> and <measure_1_2>?
+bridge_subspace,categorization,association,TRUE,What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> which has four <breakdown_1>s?
+bridge_subspace,categorization,categorization,TRUE,List all the <breakdown_2>  in the <bridge> which has four <breakdown_1>s?
+bridge_subspace,categorization,distribution,TRUE,Show me the <measure_2> over <breakdown_2> in the <bridge> which has four <breakdown_1>s?
+bridge_subspace,categorization,difference,TRUE,What is the difference between <measure_2> of <focus_2_1> and <focus_2_2> in the <bridge> which has four <breakdown_1>s?
+bridge_subspace,categorization,extreme,TRUE,Which <breakdown_2> has the highest <measure_2> in the <bridge> which has four <breakdown_1>s?
+bridge_subspace,categorization,outlier,TRUE,Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> which has four <breakdown_1>s?
+bridge_subspace,categorization,proportion,TRUE,What is the ratio of the <focus_2>'s <measure_2> in the <bridge> which has four <breakdown_1>s?
+bridge_subspace,categorization,rank,TRUE,Can you show me the ranking list of <breakdown_2> order by <measure_2> in the <bridge> which has four <breakdown_1>s?
+bridge_subspace,categorization,trend,TRUE,What is the tendency of the <measure_2> in the <bridge> which has four <breakdown_1>s?
+bridge_subspace,categorization,value,TRUE,What is the sum of <measure_2> in the <bridge> which has four <breakdown_1>s?
+bridge_subspace,distribution,association,TRUE,What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?
+bridge_subspace,distribution,categorization,TRUE,List all the <breakdown_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?
+bridge_subspace,distribution,distribution,TRUE,Show me the <measure_2> over <breakdown_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?
+bridge_subspace,distribution,difference,TRUE,What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?
+bridge_subspace,distribution,extreme,TRUE,Which <breakdown_2> has the highest <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?
+bridge_subspace,distribution,outlier,TRUE,Is there any <breakdown_2> has an uncommon <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?
+bridge_subspace,distribution,proportion,TRUE,What is the ratio of the <focus_2>'s <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?
+bridge_subspace,distribution,rank,TRUE,Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?
+bridge_subspace,distribution,trend,TRUE,What is the tendency of the <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?
+bridge_subspace,distribution,value,TRUE,What is the sum of <measure_2>  in the <bridge> that has an uncommon distribution of <measure_1> over <breakdown_1>?
+bridge_focus,difference,association,TRUE,What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>?
+bridge_focus,difference,categorization,TRUE,List all the <breakdown_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>.
+bridge_focus,difference,distribution,TRUE,Show me the <measure_2> over <breakdown_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>
+bridge_focus,difference,difference,TRUE,What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>?
+bridge_focus,difference,extreme,TRUE,Which <breakdown_2> has the highest <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>
+bridge_focus,difference,outlier,TRUE,Is there any <breakdown_2> has an uncommon <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>
+bridge_focus,difference,proportion,TRUE,What is the ratio of the <focus_2>'s <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>
+bridge_focus,difference,rank,TRUE,Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>
+bridge_focus,difference,trend,TRUE,What is the tendency of the <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>
+bridge_focus,difference,value,TRUE,What is the sum of <measure_2>  in the <bridge> whose <measure_1> has the highest difference with <focus_1_1>
+bridge_focus,extreme,association,TRUE,What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that has the largest <measure_1>?
+bridge_focus,extreme,categorization,TRUE,List all the <breakdown_2>  in the <bridge> that has the largest <measure_1>?
+bridge_focus,extreme,distribution,TRUE,Show me the <measure_2> over <breakdown_2> in the <bridge> that has the largest <measure_1>?
+bridge_focus,extreme,difference,TRUE,What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> that has the largest <measure_1>?
+bridge_focus,extreme,extreme,TRUE,Which <breakdown_2> has the highest <measure_2>  in the <bridge> that has the largest <measure_1>?
+bridge_focus,extreme,outlier,TRUE,Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> that has the largest <measure_1>?
+bridge_focus,extreme,proportion,TRUE,What is the ratio of the <focus_2>'s <measure_2> in the <bridge> that has the largest <measure_1>?
+bridge_focus,extreme,rank,TRUE,Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> that has the largest <measure_1>?
+bridge_focus,extreme,trend,TRUE,What is the tendency of the <measure_2>  in the <bridge> that has the largest <measure_1>?
+bridge_focus,extreme,value,TRUE,What is the sum of <measure_2>  in the <bridge> that has the largest <measure_1>?
+bridge_focus,outlier,association,TRUE,What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> which has an uncommon <measure_1>?
+bridge_focus,outlier,categorization,TRUE,List all the <breakdown_2>  in the <bridge> which has an uncommon <measure_1>?
+bridge_focus,outlier,distribution,TRUE,Show me the <measure_2> over <breakdown_2> in the <bridge> which has an uncommon <measure_1>?
+bridge_focus,outlier,difference,TRUE,What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> which has an uncommon <measure_1>?
+bridge_focus,outlier,extreme,TRUE,Which <breakdown_2> has the highest <measure_2>  in the <bridge> that has an uncommon <measure_1>?
+bridge_focus,outlier,outlier,TRUE,Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> that has an uncommon <measure_1>?
+bridge_focus,outlier,proportion,TRUE,What is the ratio of the <focus_2>'s <measure_2> in the <bridge> which has an uncommon <measure_1>?
+bridge_focus,outlier,rank,TRUE,Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> which has an uncommon <measure_1>?
+bridge_focus,outlier,trend,TRUE,What is the tendency of the <measure_2>  in the <bridge> which has an uncommon <measure_1>?
+bridge_focus,outlier,value,TRUE,What is the sum of <measure_2>  in the <bridge> which has an uncommon <measure_1>?
+bridge_focus,proportion,association,TRUE,What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that occupies the highest proportion of <measure_1>?
+bridge_focus,proportion,categorization,TRUE,List all the <breakdown_2>  in the <bridge> that occupies the highest proportion of <measure_1>?
+bridge_focus,proportion,distribution,TRUE,Show me the <measure_2> over <breakdown_2> in the <bridge> that occupies the highest proportion of <measure_1>?
+bridge_focus,proportion,difference,TRUE,What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> that occupies the highest proportion of <measure_1>?
+bridge_focus,proportion,extreme,TRUE,Which <breakdown_2> has the highest <measure_2>  in the <bridge> that occupies the highest proportion of <measure_1>?
+bridge_focus,proportion,outlier,TRUE,Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> that occupies the highest proportion of <measure_1>?
+bridge_focus,proportion,proportion,TRUE,What is the ratio of the <focus_2>'s <measure_2> in the <bridge> that occupies the highest proportion of <measure_1>?
+bridge_focus,proportion,rank,TRUE,Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> that occupies the highest proportion of <measure_1>?
+bridge_focus,proportion,trend,TRUE,What is the tendency of the <measure_2>  in the <bridge> that occupies the highest proportion of <measure_1>?
+bridge_focus,proportion,value,TRUE,What is the sum of <measure_2>  in the <bridge> that occupies the highest proportion of <measure_1>?
+bridge_focus,rank,association,TRUE,What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that is the top 1 in the <measure_1> ranking list?
+bridge_focus,rank,categorization,TRUE,List all the <breakdown_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?
+bridge_focus,rank,distribution,TRUE,Show me the <measure_2> over <breakdown_2> in the <bridge> that is the top 1 in the <measure_1> ranking list?
+bridge_focus,rank,difference,TRUE,What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?
+bridge_focus,rank,extreme,TRUE,Which <breakdown_2> has the highest <measure_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?
+bridge_focus,rank,outlier,TRUE,Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> that is the top 1 in the <measure_1> ranking list?
+bridge_focus,rank,proportion,TRUE,What is the ratio of the <focus_2>'s <measure_2> in the <bridge> that is the top 1 in the <measure_1> ranking list?
+bridge_focus,rank,rank,TRUE,Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?
+bridge_focus,rank,trend,TRUE,What is the tendency of the <measure_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?
+bridge_focus,rank,value,TRUE,What is the sum of <measure_2>  in the <bridge> that is the top 1 in the <measure_1> ranking list?
+bridge_subspace,trend,association,TRUE,What is the relationship between <measure_2_1> and <measure_2_2> in the <bridge> that has an increasing <measure_1> trend?
+bridge_subspace,trend,categorization,TRUE,List all the <breakdown_2>  in the <bridge> that has an increasing <measure_1> trend?
+bridge_subspace,trend,distribution,TRUE,Show me the <measure_2> over <breakdown_2> in the <bridge> that has an increasing <measure_1> trend?
+bridge_subspace,trend,difference,TRUE,What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> that has an increasing <measure_1> trend?
+bridge_subspace,trend,extreme,TRUE,Which <breakdown_2> has the highest <measure_2>  in the <bridge> that has an increasing <measure_1> trend?
+bridge_subspace,trend,outlier,TRUE,Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> that has an increasing <measure_1> trend?
+bridge_subspace,trend,proportion,TRUE,What is the ratio of the <focus_2>'s <measure_2> in the <bridge> that has an increasing <measure_1> trend?
+bridge_subspace,trend,rank,TRUE,Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> that has an increasing <measure_1> trend?
+bridge_subspace,trend,trend,TRUE,What is the tendency of the <measure_2>  in the <bridge> that has an increasing <measure_1> trend?
+bridge_subspace,trend,value,TRUE,What is the sum of <measure_2>  in the <bridge> that has an increasing <measure_1> trend?
+bridge_subspace,value,association,TRUE,What is the relationship between <measure_2_1> and <measure_2_2>  in the <bridge> whose <measure_1> is increasing?
+bridge_subspace,value,categorization,TRUE,List all the <breakdown_2>  in the <bridge> whose <measure_1> is increasing?
+bridge_subspace,value,distribution,TRUE,Show me the <measure_2> over <breakdown_2> in the <bridge> whose <measure_1> is increasing?
+bridge_subspace,value,difference,TRUE,What is the difference between <measure_2> of <focus_2_1> and <focus_2_2>  in the <bridge> whose <measure_1> is increasing ?
+bridge_subspace,value,extreme,TRUE,Which <breakdown_2> has the highest <measure_2>  in the <bridge> whose <measure_1> is increasing?
+bridge_subspace,value,outlier,TRUE,Is there any <breakdown_2> has an uncommon <measure_2> in the <bridge> whose <measure_1> is increasing?
+bridge_subspace,value,proportion,TRUE,What is the ratio of the <focus_2>'s <measure_2> in the <bridge> whose <measure_1> is increasing?
+bridge_subspace,value,rank,TRUE,Can you show me the ranking list of <breakdown_2> order by <measure_2>  in the <bridge> whose <measure_1> is increasing?
+bridge_subspace,value,trend,TRUE,What is the tendency of the <measure_2>  in the <bridge> whose <measure_1> is increasing?
+bridge_subspace,value,value,TRUE,What is the sum of <measure_2>  in the <bridge> whose <measure_1> is increasing?
+intersection,association,association,TRUE,"Which <intersection> has both high degree of correlation between <measure_1_1> and <measure_1_2>, and <measure_2_1> and <measure_2_2>?"
+intersection,association,categorization,TRUE,Which <intersection> has a high degree of correlation between <measure_1_1> and <measure_1_2> and four <breakdown_2>s?
+intersection,association,distribution,TRUE,Which <intersection> has a high degree of correlation between <measure_1_1> and <measure_1_2> and uncommon <measure_2> over <breakdown_2>s?
+intersection,association,difference,FALSE,
+intersection,association,extreme,FALSE,
+intersection,association,outlier,FALSE,
+intersection,association,proportion,FALSE,
+intersection,association,rank,FALSE,
+intersection,association,trend,TRUE,Which <intersection> has a high degree of correlation between <measure_1_1> and <measure_1_2> and an increasing tendency of <measure_2>£¿
+intersection,association,value,TRUE,Which <intersection> has high degree of correlation between <measure_1_1> and <measure_1_2> and an increasing tendency of <measure_2>£¿
+intersection,categorization,association,TRUE,Which <intersection> has four <breakdown_1>s and a high degree of correlation between <measure_2_1> and <measure_2_2>? 
+intersection,categorization,categorization,TRUE,Which <intersection> has four <breakdown_1>s and five <breakdown_2>s?
+intersection,categorization,distribution,TRUE,Which <intersection> has four <breakdown_1>s and uncommon <measure_2> over <breakdown_2>s?
+intersection,categorization,difference,FALSE,
+intersection,categorization,extreme,FALSE,
+intersection,categorization,outlier,FALSE,
+intersection,categorization,proportion,FALSE,
+intersection,categorization,rank,FALSE,
+intersection,categorization,trend,TRUE,Which <intersection> has four <breakdown_1>s and an increasing tendency of <measure_2>?
+intersection,categorization,value,TRUE,Which <intersection> has four <breakdown_1>s and a high <measure_2>?
+intersection,distribution,association,TRUE,Which <intersection> has uncommon <measure_1> over <breakdown_1>s and a high degree of correlation between <measure_2_1> and <measure_2_2>? 
+intersection,distribution,categorization,TRUE,Which <intersection> has uncommon <measure_1> over <breakdown_1>s and four <breakdown_2>s?
+intersection,distribution,distribution,TRUE,Which <intersection> has uncommon <measure_1> over <breakdown_1>s and <measure_2> over <breakdown_2>s
+intersection,distribution,difference,FALSE,
+intersection,distribution,extreme,FALSE,
+intersection,distribution,outlier,FALSE,
+intersection,distribution,proportion,FALSE,
+intersection,distribution,rank,FALSE,
+intersection,distribution,trend,TRUE,Which <intersection> has uncommon <measure_1> over <breakdown_1>s and an increasing tendency of <measure_2>£¿
+intersection,distribution,value,TRUE,Which <intersection> has uncommon <measure_1> over <breakdown_1>s and a high <measure_2>?
+intersection,difference,association,FALSE,
+intersection,difference,categorization,FALSE,
+intersection,difference,distribution,FALSE,
+intersection,difference,difference,FALSE,
+intersection,difference,extreme,FALSE,
+intersection,difference,outlier,FALSE,
+intersection,difference,proportion,FALSE,
+intersection,difference,rank,FALSE,
+intersection,difference,trend,FALSE,
+intersection,difference,value,FALSE,
+intersection,extreme,association,FALSE,
+intersection,extreme,categorization,FALSE,
+intersection,extreme,distribution,FALSE,
+intersection,extreme,difference,FALSE,
+intersection,extreme,extreme,FALSE,
+intersection,extreme,outlier,FALSE,
+intersection,extreme,proportion,FALSE,
+intersection,extreme,rank,FALSE,
+intersection,extreme,trend,FALSE,
+intersection,extreme,value,FALSE,
+intersection,outlier,association,FALSE,
+intersection,outlier,categorization,FALSE,
+intersection,outlier,distribution,FALSE,
+intersection,outlier,difference,FALSE,
+intersection,outlier,extreme,FALSE,
+intersection,outlier,outlier,FALSE,
+intersection,outlier,proportion,FALSE,
+intersection,outlier,rank,FALSE,
+intersection,outlier,trend,FALSE,
+intersection,outlier,value,FALSE,
+intersection,proportion,association,FALSE,
+intersection,proportion,categorization,FALSE,
+intersection,proportion,distribution,FALSE,
+intersection,proportion,difference,FALSE,
+intersection,proportion,extreme,FALSE,
+intersection,proportion,outlier,FALSE,
+intersection,proportion,proportion,FALSE,
+intersection,proportion,rank,FALSE,
+intersection,proportion,trend,FALSE,
+intersection,proportion,value,FALSE,
+intersection,rank,association,FALSE,
+intersection,rank,categorization,FALSE,
+intersection,rank,distribution,FALSE,
+intersection,rank,difference,FALSE,
+intersection,rank,extreme,FALSE,
+intersection,rank,outlier,FALSE,
+intersection,rank,proportion,FALSE,
+intersection,rank,rank,FALSE,
+intersection,rank,trend,FALSE,
+intersection,rank,value,FALSE,
+intersection,trend,association,TRUE,Which <intersection> has an increasing tendency of <measure_1> and a high degree of correlation between <measure_2_1> and <measure_2_2> 
+intersection,trend,categorization,TRUE,Which <intersection> has an increasing tendency of <measure_1> and four <breakdown_2>s?
+intersection,trend,distribution,TRUE,Which <intersection> has an increasing tendency of <measure_1> and uncommon <measure_2> over <breakdown_2>s?
+intersection,trend,difference,FALSE,
+intersection,trend,extreme,FALSE,
+intersection,trend,outlier,FALSE,
+intersection,trend,proportion,FALSE,
+intersection,trend,rank,FALSE,
+intersection,trend,trend,TRUE,Which <intersection> has an increasing  tendency of <measure_1> and an increasing tendency of <measure_2>£¿
+intersection,trend,value,TRUE,Which <intersection> has an increasing tendency of <measure_1> and a high <measure_2>?
+intersection,value,association,TRUE,Which <intersection> has  a high <measure_1> and a high degree of correlation between <measure_2_1> and <measure_2_2>?
+intersection,value,categorization,TRUE,Which <intersection> has  a high <measure_1> and four <breakdown_2>s?
+intersection,value,distribution,TRUE,Which <intersection> has  a high <measure_1> and uncommon <measure_2> over <breakdown_2>s?
+intersection,value,difference,FALSE,
+intersection,value,extreme,FALSE,
+intersection,value,outlier,FALSE,
+intersection,value,proportion,FALSE,
+intersection,value,rank,FALSE,
+intersection,value,trend,TRUE,Which <intersection> has  a high <measure_1> and an increasing tendency of <measure_2>£¿
+intersection,value,value,TRUE,Which <intersection> has both a high <measure_1> and a high <measure_2>?
+comparison,association,association,TRUE,"Which one has a higher degree of relationship between <measure_1_1> and <measure_1_2>, <comp_1> or <comp_2>?"
+comparison,association,categorization,FALSE,
+comparison,association,distribution,FALSE,
+comparison,association,difference,FALSE,
+comparison,association,extreme,FALSE,
+comparison,association,outlier,FALSE,
+comparison,association,proportion,FALSE,
+comparison,association,rank,FALSE,
+comparison,association,trend,FALSE,
+comparison,association,value,FALSE,
+comparison,categorization,association,FALSE,
+comparison,categorization,categorization,TRUE,"Which one has more <breakdown_1>s, <comp_1> or <comp_2>?"
+comparison,categorization,distribution,FALSE,
+comparison,categorization,difference,FALSE,
+comparison,categorization,extreme,FALSE,
+comparison,categorization,outlier,FALSE,
+comparison,categorization,proportion,FALSE,
+comparison,categorization,rank,FALSE,
+comparison,categorization,trend,FALSE,
+comparison,categorization,value,FALSE,
+comparison,distribution,association,FALSE,
+comparison,distribution,categorization,FALSE,
+comparison,distribution,distribution,TRUE,Can you compare the distribution between <comp_1> and <comp_2>?
+comparison,distribution,difference,FALSE,
+comparison,distribution,extreme,FALSE,
+comparison,distribution,outlier,FALSE,
+comparison,distribution,proportion,FALSE,
+comparison,distribution,rank,FALSE,
+comparison,distribution,trend,FALSE,
+comparison,distribution,value,FALSE,
+comparison,difference,association,FALSE,
+comparison,difference,categorization,FALSE,
+comparison,difference,distribution,FALSE,
+comparison,difference,difference,TRUE,"Which one has a higher difference of <measure_1> between <focus_1> and <focus_2>, <comp_1> or <comp_2>?"
+comparison,difference,extreme,FALSE,
+comparison,difference,outlier,FALSE,
+comparison,difference,proportion,FALSE,
+comparison,difference,rank,FALSE,
+comparison,difference,trend,FALSE,
+comparison,difference,value,FALSE,
+comparison,extreme,association,FALSE,
+comparison,extreme,categorization,FALSE,
+comparison,extreme,distribution,FALSE,
+comparison,extreme,difference,FALSE,
+comparison,extreme,extreme,TRUE,Can you compare the maximum <measure_1> among all <breakdown_1>s  between <comp_1> or <comp_2>?
+comparison,extreme,outlier,FALSE,
+comparison,extreme,proportion,FALSE,
+comparison,extreme,rank,FALSE,
+comparison,extreme,trend,FALSE,
+comparison,extreme,value,FALSE,
+comparison,outlier,association,FALSE,
+comparison,outlier,categorization,FALSE,
+comparison,outlier,distribution,FALSE,
+comparison,outlier,difference,FALSE,
+comparison,outlier,extreme,FALSE,
+comparison,outlier,outlier,TRUE,Can you compare the outliers according to the <measure_1> by <breakdown_1>s between <comp_1> or <comp_2>?
+comparison,outlier,proportion,FALSE,
+comparison,outlier,rank,FALSE,
+comparison,outlier,trend,FALSE,
+comparison,outlier,value,FALSE,
+comparison,proportion,association,FALSE,
+comparison,proportion,categorization,FALSE,
+comparison,proportion,distribution,FALSE,
+comparison,proportion,difference,FALSE,
+comparison,proportion,extreme,FALSE,
+comparison,proportion,outlier,FALSE,
+comparison,proportion,proportion,TRUE,"Which one has a higher proportion of <focus_1> for total <measure_1>, <comp_1> or <comp_2>?"
+comparison,proportion,rank,FALSE,
+comparison,proportion,trend,FALSE,
+comparison,proportion,value,FALSE,
+comparison,rank,association,FALSE,
+comparison,rank,categorization,FALSE,
+comparison,rank,distribution,FALSE,
+comparison,rank,difference,FALSE,
+comparison,rank,extreme,FALSE,
+comparison,rank,outlier,FALSE,
+comparison,rank,proportion,FALSE,
+comparison,rank,rank,TRUE,Can you compare the ranking list of <breakdown_1> order by <measure_1> between <comp_1> and <comp_2>?
+comparison,rank,trend,FALSE,
+comparison,rank,value,FALSE,
+comparison,trend,association,FALSE,
+comparison,trend,categorization,FALSE,
+comparison,trend,distribution,FALSE,
+comparison,trend,difference,FALSE,
+comparison,trend,extreme,FALSE,
+comparison,trend,outlier,FALSE,
+comparison,trend,proportion,FALSE,
+comparison,trend,rank,FALSE,
+comparison,trend,trend,TRUE,"Which one has a better tendency of <measure_1>, <comp_1> or <comp_2>?"
+comparison,trend,value,FALSE,
+comparison,value,association,FALSE,
+comparison,value,categorization,FALSE,
+comparison,value,distribution,FALSE,
+comparison,value,difference,FALSE,
+comparison,value,extreme,FALSE,
+comparison,value,outlier,FALSE,
+comparison,value,proportion,FALSE,
+comparison,value,rank,FALSE,
+comparison,value,trend,FALSE,
+comparison,value,value,TRUE,"Which one has a higher <measure_1>, <comp_1> or <comp_2>?"

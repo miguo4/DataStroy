@@ -1,0 +1,60 @@
+{
+  "name": "calliope-talk",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@kyo_ago/react-textfit": "^2.0.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.6.3",
+    "artyom.js": "^1.0.6",
+    "axios": "^0.20.0",
+    "babel-plugin-import": "^1.13.0",
+    "calliope-chart": "1.2.14",
+    "customize-cra": "0.9.1",
+    "http-proxy-middleware": "^1.0.6",
+    "js-cookie": "^2.2.1",
+    "less": "^3.12.2",
+    "less-loader": "5.0.0",
+    "lodash": "^4.17.20",
+    "plur": "^4.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-intl-universal": "^2.4.1",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "react-app-rewired": "^2.1.6"
+  }
+}

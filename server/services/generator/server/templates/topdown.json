@@ -1,0 +1,379 @@
+[
+  {
+    "fact": "*",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "present the data",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "association",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "find correlations",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "categorization",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "find categories",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "distribution",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "show distributions",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "difference",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "find differences",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "extreme",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "show extremes",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "outlier",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "show outliers",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "proportion",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "show proportion",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "rank",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "show some ranks",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "trend",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "show trends",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "value",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "*",
+    "template": "show some values",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "*",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "*",
+    "template": "Show me some information about each <breakdown>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "*",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure",
+    "template": "Tell me something about <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "association",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "*",
+    "template": "For every <breakdown>, which are connected.",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "categorization",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "*",
+    "template": "find categories of <breakdown>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "distribution",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "*",
+    "template": "show distributions over <breakdown>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "difference",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "*",
+    "template": "find differences within <breakdown>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "extreme",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "*",
+    "template": "which <breakdown> 's value is extreme.",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "outlier",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "*",
+    "template": "which <breakdown> 's value is an outlier.",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "proportion",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "*",
+    "template": "what is the proportion of every <breakdown>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "rank",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "*",
+    "template": "what is the rank of <breakdown>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "trend",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "*",
+    "template": "show trends over <breakdown>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "association",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure1",
+    "template": "which are relevant to <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "association",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure",
+    "template": "what is the correlation between <measure> and <measure_1>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "distribution",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure",
+    "template": "what is the distributions of <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "difference",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure",
+    "template": "what are the differences between <measure> and <measure_1>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "extreme",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure",
+    "template": "find an extreme value in <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "outlier",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure",
+    "template": "In <measure>, which one is an outlier.",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "proportion",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure",
+    "template": "how much of percentage out of  <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "rank",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure",
+    "template": "based on <measure>, which are the top 3 ranked.",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "trend",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure",
+    "template": "what is the trend of <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "value",
+    "subspace": "*",
+    "breakdown": "*",
+    "measure": "measure",
+    "template": "what is <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "*",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "measure",
+    "template": "Show me some information about <measure> of <breakdown>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "association",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "measure1",
+    "template": "For every <breakdown>, which relates to <measure>.",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "association",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "measure",
+    "template": "what is <breakdown>'s correlation between <measure> and <measure_1> ",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "distribution",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "measure",
+    "template": "what is the distributions of <measure> over <breakdown>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "difference",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "measure",
+    "template": "what are the differences between <breakdown> regarding to their <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "extreme",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "measure",
+    "template": "which <breakdown> has the extreme value of <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "outlier",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "measure",
+    "template": "which <breakdown> have an anomaly value of <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "proportion",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "measure",
+    "template": "What is the proportion of each <breakdown> in <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "rank",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "measure",
+    "template": "What is the top ranked <breakdown> based on the number of <measure>",
+    "focus": "*",
+    "": ""
+  },
+  {
+    "fact": "trend",
+    "subspace": "*",
+    "breakdown": "breakdown",
+    "measure": "measure",
+    "template": "what is the trend of <measure> over <breakdown>",
+    "focus": "*",
+    "": ""
+  }]

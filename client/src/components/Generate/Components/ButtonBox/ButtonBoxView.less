@@ -1,0 +1,56 @@
+@import '../../common.less';
+
+
+
+.button-box:hover {
+    border: #FCBE31 4px solid;
+}
+
+.button-box {
+    display         : flex;
+    flex-direction  : row;
+    align-items     : center;
+    justify-content : center;
+    width           : 140px;
+    height          : 45px;
+    background-color: #064969;
+    cursor          : pointer;
+
+    div {
+        width              : 21px;
+        height             : 21px;
+        margin-right       : 11px;
+        background-size    : contain;
+        background-repeat  : no-repeat;
+        background-position: center;
+    }
+
+    p {
+        font-family   : @NotoSansHans-Medium;
+        font-size     : 16px;
+        color         : #FFFFFF;
+        letter-spacing: 0;
+        text-align    : center;
+        margin-bottom : 0px;
+    }
+}
+
+
+@media screen and (max-width:550px) {
+    .button-box {
+        div {
+            transform   : scale(0.8);
+            min-width   : 21px;
+            margin-right: 5px !important;
+
+
+        }
+
+        p {
+            font-size: 14px !important;
+        }
+
+        width : 100px !important;
+        height: 40px;
+    }
+}

@@ -1,0 +1,155 @@
+.TableView {
+    height: 100%;
+
+    .ant-table-filter-column-title {
+        padding-right: 16px !important;
+    }
+
+    .ant-table-filter-trigger {
+        //color: black;
+    }
+
+    .ant-table-container {
+        border-left: 1px solid #2E2E2E !important;
+        border-top : 1px solid #2E2E2E !important;
+    }
+
+    tbody .ant-table-thead>tr>th,
+    .ant-table-tbody>tr>td,
+    .ant-table tfoot>tr>th,
+    .ant-table tfoot>tr>td {
+        padding: 6px 16px;
+    }
+
+    .ant-table-filter-column {
+        margin: 0px;
+    }
+
+    .ant-table-column-sorter-full {
+        position        : absolute;
+        right           : 10px;
+        background-color: transparent;
+    }
+
+    .ant-table-column-sorters {
+        width: 100%;
+
+        span:nth-child(1) {
+            width           : 100%;
+            background-color: transparent !important;
+        }
+
+    }
+
+    .ant-table-column-sorters,
+    .ant-table-filter-column-title {
+        padding: 0px !important;
+    }
+
+    thead {
+        th {
+            padding      : 0px 0px;
+            border-bottom: 3px solid #000000 !important;
+            border-right : 1px solid #2E2E2E !important;
+            cursor       : pointer;
+
+            p {
+                //font-family: Arial-BoldMT;
+                padding    : 6px 0px 10px 0px;
+                font-size  : 18px;
+                color      : #000000;
+                text-align : left;
+                margin     : 0px;
+                line-height: 20px;
+            }
+
+            .ID {
+                background-color: rgb(228, 224, 224);
+            }
+
+            .numerical {
+                background-color: rgba(187, 222, 165);
+            }
+
+            .categorical {
+                background-color: rgba(237, 185, 154);
+            }
+
+            .temporal {
+                background-color: rgba(240, 220, 159);
+            }
+
+            .geographical {
+                background-color: rgba(179, 205, 231);
+            }
+        }
+
+        th :hover {
+            background-color: #fafafa !important;
+            transition      : background-color 0.3s;
+        }
+    }
+
+    tbody {
+        td {
+            border-bottom: 1px solid #2E2E2E;
+            border-right : 1px solid #2E2E2E !important;
+        }
+
+        .numerical {
+            background-color: rgba(226, 239, 218);
+        }
+
+        .categorical {
+            background-color: rgba(252, 228, 213);
+        }
+
+        .temporal {
+            background-color: rgba(255, 242, 204);
+        }
+
+        .geographical {
+            background-color: rgba(221, 234, 246);
+        }
+
+        .ID {
+            background-color: rgba(244, 244, 244);
+        }
+    }
+
+    .title {
+        display        : flex;
+        flex-direction : column;
+        align-items    : center;
+        justify-content: center;
+    }
+
+    .field-icon {
+        margin-top         : 13px;
+        width              : 41px;
+        height             : 14px;
+        background-size    : auto 100%;
+        background-repeat  : no-repeat;
+        background-position: center;
+    }
+
+    .field-ID {
+        background-image: url('../../../images/icon/identification.png')
+    }
+
+    .field-temporal {
+        background-image: url('../../../images/icon/temporal.png')
+    }
+
+    .field-categorical {
+        background-image: url('../../../images/icon/categorical.png')
+    }
+
+    .field-numerical {
+        background-image: url('../../../images/icon/numerical.png')
+    }
+
+    .field-geographical {
+        background-image: url('../../../images/icon/geographical.png')
+    }
+}

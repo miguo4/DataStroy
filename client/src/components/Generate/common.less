@@ -1,0 +1,54 @@
+@import '../../common.less';
+
+.generated-view-dox {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    height        : 100%;
+    padding       : 15px 0px;
+
+
+    .FuntionView {
+        margin-bottom     : 17px;
+        -webkit-column-gap: 11px;
+        /* Chrome, Safari, Opera */
+        -moz-column-gap   : 11px;
+        /* Firefox */
+        column-gap        : 11px;
+        position          : relative;
+
+        .download-box {
+            position  : absolute;
+            margin-top: -50px;
+            width     : 100%;
+        }
+    }
+
+
+    span {
+        display        : flex;
+        flex-direction : row;
+        justify-content: center;
+        align-items    : center;
+        font-family    : @NotoSansHans-Medium;
+        font-size      : 16px;
+        color          : #000000;
+        letter-spacing : 0;
+        text-align     : center;
+        margin-bottom  : 15px;
+    }
+
+    .fileTypeAndNameView {
+        display        : flex;
+        flex           : 1;
+        flex-direction : column;
+        align-items    : center;
+        justify-content: center;
+    }
+
+    .fileType-icon {
+        width        : 123px;
+        height       : 79px;
+        margin-bottom: 10px;
+    }
+}

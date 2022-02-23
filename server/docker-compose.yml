@@ -1,0 +1,53 @@
+version: '3'
+
+services:
+    talk-nginx:
+        build: ./services/nginx
+        container_name: talk-nginx
+        ports:
+            - 8005:80
+            - 8006:443
+        volumes: 
+            - "./services/nginx/certs:/etc/nginx/certs"
+        depends_on: 
+            - talk-fileserver
+            - talk-generator
+            - talk-nl4dv
+        networks:
+            - algorithm
+
+
+    talk-fileserver:
+        build: ./services/fileserver
+        container_name: talk-fileserver
+        ports:
+            - 6028:6028
+        volumes:
+            - "./volumes/data:/server/csvs"
+        command: gunicorn -c gunicorn.py run:app
+        networks:
+            - algorithm
+
+    talk-generator:
+        build: ./services/generator
+        container_name: talk-generator
+        command: gunicorn -c gunicorn.py run:app
+        depends_on: 
+            - talk-nl4dv
+        ports:
+            - 6030:6030
+        networks:
+            - algorithm
+
+    talk-nl4dv:
+        build: ./services/nl4dv
+        container_name: talk-nl4dv
+        restart: always
+        ports:
+            - 6029:80
+        networks:
+            - algorithm
+    
+networks:
+    algorithm:
+        driver: bridge

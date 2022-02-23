@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>椭圆形</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="25"></circle>
+        <filter x="-30.0%" y="-30.0%" width="160.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.849326313   0 0 0 0 0.849326313   0 0 0 0 0.849326313  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="问答系统修改" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="椭圆形">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#80BEFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="17" y="17" width="36" height="36"></rect>
+        <path d="M36.6029412,47.849625 L36.6029412,49.8375 C36.6029412,50.479531 36.1091376,51 35.5,51 C34.8908624,51 34.3970588,50.479531 34.3970588,49.8375 L34.3970588,47.849625 C28.0099265,47.260625 23,41.609325 23,34.725 L23,33.95 C23,33.307969 23.4938036,32.7875 24.1029412,32.7875 C24.7120788,32.7875 25.2058824,33.307969 25.2058824,33.95 L25.2058824,34.725 C25.2058824,40.7173 29.8147059,45.575 35.5,45.575 C41.1852941,45.5749999 45.7941176,40.7173 45.7941176,34.725 L45.7941176,33.95 C45.7941176,33.307969 46.2879212,32.7875 46.8970588,32.7875 C47.5061964,32.7875 48,33.307969 48,33.95 L48,34.725 C48,41.6097125 42.9900735,47.260625 36.6029412,47.849625 L36.6029412,47.849625 Z M28.1470588,27.746125 C28.1470588,23.468125 31.4386029,20 35.5,20 C39.5595588,20 42.8529412,23.4708375 42.8529412,27.746125 L42.8529412,34.728875 C42.8529412,39.006875 39.5613971,42.475 35.5,42.475 C31.4404412,42.475 28.1470588,39.0041625 28.1470588,34.728875 L28.1470588,27.746125 Z M30.3529412,27.746125 L30.3529412,34.728875 C30.3529412,37.720375 32.6584559,40.15 35.5,40.15 C38.3433824,40.15 40.6470588,37.7230875 40.6470588,34.728875 L40.6470588,27.746125 C40.6470588,24.754625 38.3415441,22.325 35.5,22.325 C32.6566176,22.325 30.3529412,24.7519125 30.3529412,27.746125 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

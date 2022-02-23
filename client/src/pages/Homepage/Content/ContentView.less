@@ -1,0 +1,354 @@
+@import ".././../../common.less";
+
+.ContentView {
+    width         : 100%;
+    padding-bottom: 63px;
+    padding-top   : 60px;
+}
+
+.SloganView {
+    display       : flex;
+    flex-direction: row;
+    padding       : 0px 10px;
+}
+
+.custom {
+    margin-left    : 118px;
+    width          : 380px;
+    min-width      : 380px;
+    float          : left;
+    height         : 350px;
+    background     : url(../../../images//icon/calliope_undraw.png) no-repeat center;
+    background-size: contain;
+}
+
+.decorationImage {
+    width: 100%;
+
+    .steps {
+        margin-top     : 60px;
+        width          : 100%;
+        display        : flex;
+        flex-direction : row;
+        align-items    : center;
+        justify-content: center;
+
+        .arrow {
+            margin         : 0px 44px;
+            width          : 25px;
+            height         : 15px;
+            background     : url(../../../images/icon/next.png) no-repeat center;
+            background-size: contain;
+        }
+
+        .step-box {
+            position: relative;
+
+            .index {
+                position     : absolute;
+                top          : -10px;
+                left         : -11px;
+                width        : 24px;
+                height       : 24px;
+                padding-left : 7px;
+                //font-family: Arial-BoldItalicMT;
+                font-size    : 14.4px;
+                color        : #FFFFFF;
+                text-align   : left;
+                border-radius: 50%;
+
+            }
+
+            .box {
+                width          : 75px;
+                height         : 80px;
+                background     : #FFFFFF;
+                box-shadow     : 0 3px 9px 0 rgba(191, 191, 191, 0.50);
+                border-radius  : 4.5px;
+                border-radius  : 4.5px;
+                display        : flex;
+                flex-direction : column;
+                align-items    : center;
+                justify-content: center;
+
+            }
+
+            .box div:nth-child(1) {
+                width            : 42px;
+                height           : 42px;
+                background-size  : contain;
+                background-repeat: no-repeat;
+                margin-top       : 5px;
+            }
+
+            .box div:nth-child(2) {
+                margin-top   : 7px;
+                //font-family: ArialMT;
+                font-size    : 12px;
+                color        : #000000;
+                text-align   : left;
+            }
+        }
+    }
+
+    span:nth-child(1) {
+        display       : block;
+        font-family   : @NotoSansHans-Bold;
+        margin-top    : 20px;
+        font-size     : 36px;
+        color         : #000000;
+        letter-spacing: 1px;
+        text-align    : left;
+
+    }
+
+
+
+    span:nth-child(2) {
+        display   : block;
+        width     : 60px;
+        height    : 5px;
+        margin-top: 10px;
+        background: #FDBE31 100%;
+    }
+
+
+    ul {
+        margin-top : 20px;
+        margin-left: -40px;
+
+        li {
+            font-family    : @NotoSansHans-Regular;
+            font-size      : 16px;
+            color          : #424242;
+            text-align     : justify;
+            line-height    : 25px;
+            list-style-type: none;
+            margin-bottom  : 20px;
+        }
+    }
+}
+
+
+
+
+
+
+.belowPannel {
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: space-evenly;
+    flex-wrap      : wrap;
+    margin-bottom  : 50px;
+
+
+    .cloumnDiv span:nth-child(2) {
+        font-family  : @NotoSansHans-Medium;
+        font-size    : 16px;
+        height       : 16px;
+        line-height  : 16px;
+        color        : #212121;
+        text-align   : left;
+        display      : block;
+        margin-bottom: 15px;
+    }
+
+    .cloumnDiv span:nth-child(3) {
+        font-family: @NotoSansHans-Regular;
+        font-size  : 16px;
+        color      : #424242;
+        text-align : center;
+        line-height: 25px;
+        text-align : center;
+    }
+
+    .cloumnDiv {
+        display       : block;
+        width         : 30%;
+        margin-top    : 50px;
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    .iconSize {
+        width        : 28px;
+        height       : 32px;
+        min-height   : 32px;
+        min-width    : 28px;
+        margin-bottom: 15px;
+    }
+
+    .icon1 {
+        background     : url("@{myAliCould}/belowPannel/light.png") no-repeat center;
+        width          : 36px;
+        height         : 36px;
+        min-height     : 36px;
+        min-width      : 36px;
+        background-size: contain;
+    }
+
+    .icon2 {
+        background     : url("@{myAliCould}/belowPannel/security.png") no-repeat center;
+        background-size: contain;
+    }
+
+    .icon3 {
+        background     : url("@{myAliCould}/belowPannel/support.png") no-repeat center;
+        background-size: contain;
+    }
+
+    .icon4 {
+        background     : url("@{myAliCould}/belowPannel/quality.png") no-repeat center;
+        background-size: contain;
+    }
+
+    .icon5 {
+        background     : url("@{myAliCould}/belowPannel/change.png") no-repeat center;
+        background-size: contain;
+    }
+
+    .icon6 {
+        background     : url("@{myAliCould}/belowPannel/upload.png") no-repeat center;
+        background-size: contain;
+    }
+}
+
+.aboutContent {
+    margin-top: 19px;
+}
+
+
+
+.aboutContent .leftTxt {
+    line-height   : 20px;
+    font-family   : @NotoSansHans-Medium;
+    font-size     : 20px;
+    color         : #000000;
+    text-align    : left;
+    border-bottom : 4px #EB6331 solid;
+    padding-bottom: 16px;
+    margin-right  : 103px;
+}
+
+.aboutContent .ant-row {
+    height: 100% !important;
+}
+
+.aboutContent .ant-col-8 {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    height        : 60%;
+    font-family   : @NotoSansHans-Regular;
+    font-size     : 16px;
+    color         : #231815;
+}
+
+.aboutContent .ant-col-8:nth-child(1) div {
+    margin-top     : 41px;
+    width          : 94px;
+    height         : 94px;
+    background     : url('@{myAliCould}/insightful.png') no-repeat center;
+    background-size: contain;
+}
+
+.aboutContent .ant-col-8:nth-child(2) div {
+    margin-top     : 41px;
+    width          : 94px;
+    height         : 94px;
+    background     : url('@{myAliCould}/efficient.png') no-repeat center;
+    background-size: contain;
+}
+
+.aboutContent .ant-col-8:nth-child(3) div {
+    margin-top     : 41px;
+    width          : 94px;
+    height         : 94px;
+    background     : url('@{myAliCould}/expressive.png') no-repeat center;
+    background-size: contain;
+}
+
+@media screen and (max-width:1080px) {
+    .factSheetAndReport {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .factSheetAndReport {
+        width: 100%;
+    }
+
+    .factSheetAndReport .ant-col-12 {
+        padding: 0px 20px
+    }
+
+    .howtoConvert {
+        padding-top   : 35px;
+        padding-bottom: 65px;
+        flex-direction: column-reverse !important;
+
+        div:nth-child(2) {
+            margin-left: 0px !important;
+            width      : 80%;
+
+            span:nth-child(1) {
+                margin-bottom: 34px;
+            }
+
+            span:nth-child(2) {
+                margin-bottom: 15px;
+            }
+        }
+
+        div:nth-child(1) {
+            margin-left: -10%;
+        }
+    }
+}
+
+
+
+.howtoConvert {
+    padding-top    : 60px;
+    padding-bottom : 71px;
+    width          : 100%;
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+}
+
+.howtoConvert>div:nth-child(1) {
+    width          : 306px;
+    height         : 100px;
+    background     : url('@{myAliCould}/belowPannel/convertUndraw.png') no-repeat center;
+    background-size: contain;
+}
+
+.howtoConvert>div:nth-child(2) {
+    display        : flex;
+    flex-direction : column;
+    align-items    : flex-start;
+    justify-content: center;
+    margin-left    : 98px;
+
+    span:nth-child(1) {
+        font-family  : @NotoSansHans-Medium;
+        line-height  : 16px;
+        font-size    : 16px;
+        color        : #212121;
+        text-align   : left;
+        margin-bottom: 34px;
+    }
+
+    span {
+        font-family  : @NotoSansHans-Regular;
+        font-size    : 16px;
+        color        : #0F0F0F;
+        line-height  : 24px;
+        margin-bottom: 26px;
+    }
+}

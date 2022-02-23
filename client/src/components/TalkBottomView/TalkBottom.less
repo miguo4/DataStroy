@@ -1,0 +1,271 @@
+.bottom-box {
+    position   : absolute;
+    bottom     : 0;
+    // width   : 100%;
+    padding    : 10px;
+
+}
+
+@keyframes slowUp {
+    0% {
+        bottom: -100px;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+}
+
+@keyframes slowRight {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.input-box {
+    position : relative;
+    animation: slowUp 0.5s ease-out;
+
+    .input-icon {
+        position       : absolute;
+        left           : 0;
+        top            : -10px;
+        width          : 80px;
+        height         : 80px;
+        background     : url('../../images/icon/input_yellow.png') no-repeat top;
+        background-size: contain;
+        cursor         : pointer;
+    }
+
+    .input-active {
+        padding-left  : 40px;
+        bottom        : 0;
+        background    : rgba(255, 255, 255, 1);
+        box-shadow    : 0 3px 10px 0 rgba(190, 190, 190, 0.50);
+        border-radius : 30px;
+        border-radius : 30px;
+        display       : flex;
+        flex-direction: row;
+        align-items   : center;
+        margin-bottom : 24px;
+        animation     : slowRight 1s ease-in-out;
+
+        input {
+            height      : 40px;
+            line-height : 40px;
+            width       : 100%;
+            margin      : 10px 20px 10px 52px;
+            padding-left: 20px;
+            background  : #FFFFFF;
+            box-shadow  : inset 0 0 5px 0 rgba(164, 164, 164, 0.50);
+        }
+    }
+}
+
+.edit-box {
+    position       : relative;
+    animation      : slowUp 0.5s ease-out;
+    height         : 80px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+
+    .edit-icon {
+        position       : absolute;
+        left           : 0;
+        top            : -10px;
+        width          : 80px;
+        height         : 80px;
+        background     : url('../../images/icon/edit_yellow.png') no-repeat top;
+        background-size: contain;
+        cursor         : pointer;
+    }
+
+    .exit-active {
+        padding       : 10px 30px 10px 100px;
+        bottom        : 0;
+        background    : rgba(255, 255, 255, 1);
+        box-shadow    : 0 3px 10px 0 rgba(190, 190, 190, 0.50);
+        border-radius : 30px;
+        display       : flex;
+        flex-direction: row;
+        align-items   : center;
+        margin-bottom : 24px;
+        animation     : slowRight 1s ease-in-out;
+        cursor        : pointer;
+
+        .box {
+            display         : flex;
+            flex-direction  : row;
+            align-items     : center;
+            background-color: lightgray;
+            padding         : 5px 10px;
+            border          : 1px solid black;
+        }
+
+        span {
+            margin-right: 10px;
+            color       : black;
+            font-size   : 20px;
+            line-height : 20px;
+        }
+
+        .exit-icon {
+            width          : 24px;
+            height         : 24px;
+            background     : url('../../images/icon/exit.png') no-repeat top;
+            background-size: contain;
+            cursor         : pointer;
+        }
+    }
+}
+
+@keyframes upandrigtht {
+    0% {
+        margin-bottom: -24px;
+    }
+
+    100% {
+        margin-bottom: 24px;
+    }
+}
+
+
+
+.bottom-box .voice-active {
+    bottom        : 0;
+    background    : rgba(255, 255, 255, 1);
+    box-shadow    : 0 3px 10px 0 rgba(190, 190, 190, 0.50);
+    border-radius : 30px;
+    border-radius : 30px;
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    height        : 45px;
+    line-height   : 45px;
+    margin-bottom : 24px;
+    animation     : upandrigtht 0.5s ease-out;
+
+
+    .voice-icon {
+        width          : 80px;
+        height         : 80px;
+        background     : url('../../images/icon/voice_yellow.png') no-repeat top;
+        background-size: contain;
+        cursor         : pointer;
+    }
+
+    .gif {
+        position       : absolute;
+        left           : 80px;
+        width          : 100px;
+        height         : 33px;
+        background     : url('../../images/icon/voiceGif.gif') no-repeat center;
+        background-size: cover;
+        margin-left    : 16px;
+    }
+
+    span {
+        height             : 45px;
+        line-height        : 45px;
+        text-align         : center;
+        //font-family: PingFangSC-Semibold;
+        font-size          : 18px;
+        color              : #000000;
+        animation          : slowRight 1s ease-in-out;
+        animation-fill-mode: forwards;
+    }
+
+}
+
+.bottom-box .tool-bar:hover {
+    opacity: 1;
+}
+
+.bottom-box .tool-bar {
+    background    : rgba(255, 255, 255, 0.80);
+    box-shadow    : 0 3px 10px 0 rgba(196, 196, 196, 0.50);
+    border-radius : 4.5px;
+    border-radius : 4.5px;
+    display       : flex;
+    flex-direction: row;
+    padding-right : 14px;
+    align-items   : center;
+    opacity       : 0.2;
+
+    button {
+        border       : none !important;
+        padding      : 5px;
+        margin-left  : 14px;
+        width        : 23px;
+        height       : 28px;
+        cursor       : pointer;
+        margin-top   : 5px;
+        margin-bottom: 5px;
+    }
+
+    // button:hover {
+    //     outline: 2px solid #FFBE32;
+    // }
+    .upload {
+        background     : url('../../images/icon/toUpload.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .voice {
+        background     : url('../../images/icon/voice_black.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .voice:hover {
+        background     : url('../../images/icon/icon_voice_yellow.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .input {
+        background     : url('../../images/icon/input_black.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .input:hover {
+        background     : url('../../images/icon/icon_input_yellow.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .edit {
+        background     : url('../../images/icon/edit_black.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .edit:hover {
+        background     : url('../../images/icon/icon_edit_yellow.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .toDatabase {
+        background     : url('../../images/icon/database_black.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .toDatabase:hover {
+        background     : url('../../images/icon/icon_database_yellow.png') no-repeat center;
+        background-size: contain;
+    }
+
+    .toVis {
+        background     : url('../../images/icon/toVis.png') no-repeat center;
+        background-size: contain;
+        margin-right   : 14px;
+    }
+
+    // .toVis:hover {
+    //     background     : url('../../images/icon/icon_database_yellow.png') no-repeat center;
+    //     background-size: contain;
+    //     margin-right   : 14px;
+    // }
+
+}

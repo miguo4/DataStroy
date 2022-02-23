@@ -1,0 +1,16 @@
+{
+    "type": "categorization",
+    "measure": [
+        
+    ],
+    "subspace": [
+        {
+            "field": "Year",
+            "value": "2007/1/1"
+        }
+    ],
+    "groupby": ["Brand"],
+    "focus": [
+        
+    ]
+}
